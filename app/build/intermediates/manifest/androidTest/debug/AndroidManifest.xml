@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.lq.xpressmusic.test">
+    package="com.axis.jplayer.test">
 
     <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="17" />
 
@@ -9,8 +9,8 @@
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="com.lq.xpressmusic"
+                     android:targetPackage="com.axis.jplayer"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for com.lq.xpressmusic"/>
+                     android:label="Tests for com.axis.jplayer"/>
 </manifest>

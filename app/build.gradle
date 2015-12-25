@@ -5,7 +5,7 @@ android {
     buildToolsVersion "21.1.1"
 
     defaultConfig {
-        applicationId "com.lq.xpressmusic"
+        applicationId "com.axis.jplayer"
         minSdkVersion 14
         targetSdkVersion 17
     }
