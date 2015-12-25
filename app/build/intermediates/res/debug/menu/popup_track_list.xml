@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/sort_by_music_name"
+        android:title="@string/sort_by_music_name"/>
+    <item
+        android:id="@+id/sort_by_artist_name"
+        android:title="@string/sort_by_artist"/>
+
+</menu><!-- From: file:/E:/Computer/Andriod/mine/app/MusicPlayer/app/src/main/res/menu/popup_track_list.xml -->

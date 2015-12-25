@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\menu\\popup_track_list.xml",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\menu\\popup_track_list.xml"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\menu\\popup_playlist_list.xml",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\menu\\popup_playlist_list.xml"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\menu\\popup_artist_list.xml",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\menu\\popup_artist_list.xml"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\menu\\popup_local_music_list.xml",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\menu\\popup_local_music_list.xml"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\menu\\track_operations_in_player.xml",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\menu\\track_operations_in_player.xml"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\menu\\track_operation.xml",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\menu\\track_operation.xml"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\menu\\popup_folder_list.xml",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\menu\\popup_folder_list.xml"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\menu\\popup_album_list.xml",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\menu\\popup_album_list.xml"
+    }
+]
