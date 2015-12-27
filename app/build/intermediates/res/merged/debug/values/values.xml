@@ -51,12 +51,12 @@
     <dimen name="slidingmenu_offset">60dp</dimen>
     <item name="selected_view" type="id"/>
     <string name="a_piece_of_song">首歌</string>
-    <string name="about">本播放器是作者利用业余时间开发的小应用，仅供学习交流使用，源码可访问https://github.com/avatarqing/XpressMusic 获取。如有更好的建议或心得请发送反馈信息，非常感谢您的支持</string>
+    <string name="about">本人手残，画不出好看的UI，凑合用吧 哈哈。\n如果对本软件有什么意见或建议记得反馈给我哟！我会努力改进的。</string>
     <string name="add_songs">添加歌曲</string>
     <string name="add_success">添加成功</string>
     <string name="add_to">添加到</string>
     <string name="add_to_playlist">添加到播放列表</string>
-    <string name="app_name">随心而乐</string>
+    <string name="app_name">CoolCat</string>
     <string name="are_you_sure_to_delete">您确定删除</string>
     <string name="are_you_sure_to_exit">您确定退出吗？</string>
     <string name="are_you_sure_to_reset_default">您确定要恢复默认设置吗</string>
@@ -82,7 +82,7 @@
     <string name="delete_success">删除成功</string>
     <string name="download_lyric_automatically">自动下载歌词</string>
     <string name="download_lyric_automatically_summary">不会占用太多流量，建议开启</string>
-    <string name="email_title">随心而乐的意见反馈</string>
+    <string name="email_title">CoolCat的意见反馈</string>
     <string name="feedback">意见反馈</string>
     <string name="file_filter">文件过滤</string>
     <string name="file_format">文件格式</string>
