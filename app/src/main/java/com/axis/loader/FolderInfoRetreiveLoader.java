@@ -15,7 +15,7 @@ import android.provider.MediaStore.Files.FileColumns;
 import android.support.v4.content.AsyncTaskLoader;
 import android.util.Log;
 
-import com.axis.jplayer.R;
+import com.axis.coolcat.R;
 import com.axis.entity.FolderInfo;
 import com.axis.fragment.SettingFragment;
 import com.axis.util.Constant;

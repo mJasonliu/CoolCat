@@ -23,7 +23,7 @@ import android.widget.TextView;
 import com.axis.activity.FeedbackActivity;
 import com.axis.activity.MainContentActivity;
 import com.axis.activity.MyPreferenceActivity;
-import com.axis.jplayer.R;
+import com.axis.coolcat.R;
 
 /**
  * @author lq 2013-6-1 lq2625304@gmail.com

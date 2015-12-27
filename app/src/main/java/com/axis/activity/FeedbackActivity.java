@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 import com.google.analytics.tracking.android.EasyTracker;
 import com.axis.util.Constant;
-import com.axis.jplayer.R;
+import com.axis.coolcat.R;
 import com.umeng.analytics.MobclickAgent;
 
 /**

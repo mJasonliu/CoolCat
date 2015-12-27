@@ -26,7 +26,7 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import com.axis.activity.MutipleEditActivity;
-import com.axis.jplayer.R;
+import com.axis.coolcat.R;
 import com.axis.adapter.PlaylistAdapter;
 import com.axis.dao.PlaylistDAO;
 import com.axis.entity.PlaylistInfo;

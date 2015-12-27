@@ -9,7 +9,7 @@ import android.os.Message;
 import android.support.v4.app.FragmentActivity;
 
 import com.google.analytics.tracking.android.EasyTracker;
-import com.axis.jplayer.R;
+import com.axis.coolcat.R;
 import com.umeng.analytics.MobclickAgent;
 
 /**

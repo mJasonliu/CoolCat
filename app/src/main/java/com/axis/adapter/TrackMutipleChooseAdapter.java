@@ -12,7 +12,7 @@ import android.widget.BaseAdapter;
 import android.widget.CheckBox;
 import android.widget.TextView;
 
-import com.axis.jplayer.R;
+import com.axis.coolcat.R;
 import com.axis.entity.TrackInfo;
 
 /**

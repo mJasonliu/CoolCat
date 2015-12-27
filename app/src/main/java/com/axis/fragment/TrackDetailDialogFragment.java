@@ -9,7 +9,7 @@ import android.view.LayoutInflater;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.axis.jplayer.R;
+import com.axis.coolcat.R;
 import com.axis.entity.TrackInfo;
 import com.axis.util.StringHelper;
 import com.axis.util.TimeHelper;

@@ -32,7 +32,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.axis.activity.MainContentActivity;
-import com.axis.jplayer.R;
+import com.axis.coolcat.R;
 import com.axis.adapter.ArtistAdapter;
 import com.axis.entity.ArtistInfo;
 import com.axis.loader.ArtistInfoRetrieveLoader;

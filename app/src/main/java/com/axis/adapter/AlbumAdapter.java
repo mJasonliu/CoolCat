@@ -15,7 +15,7 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.axis.jplayer.R;
+import com.axis.coolcat.R;
 import com.axis.entity.AlbumInfo;
 /**
  * @author lq 2013-6-1 lq2625304@gmail.com

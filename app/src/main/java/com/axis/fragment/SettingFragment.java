@@ -12,7 +12,7 @@ import android.preference.PreferenceScreen;
 import android.util.Log;
 
 import com.axis.activity.FolderChooseActivity;
-import com.axis.jplayer.R;
+import com.axis.coolcat.R;
 import com.axis.util.Constant;
 
 /**

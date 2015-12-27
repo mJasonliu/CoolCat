@@ -10,7 +10,7 @@ import android.util.Log;
 import android.view.ContextThemeWrapper;
 
 import com.axis.activity.MainContentActivity;
-import com.axis.jplayer.R;
+import com.axis.coolcat.R;
 
 /**
  * @author lq 2013-6-1 lq2625304@gmail.com

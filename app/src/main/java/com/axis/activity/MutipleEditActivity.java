@@ -38,7 +38,7 @@ import com.axis.fragment.SelectPlaylistDialogFragment;
 import com.axis.service.MusicService;
 import com.axis.service.MusicService.MusicPlaybackLocalBinder;
 import com.axis.util.Constant;
-import com.axis.jplayer.R;
+import com.axis.coolcat.R;
 import com.umeng.analytics.MobclickAgent;
 
 /**

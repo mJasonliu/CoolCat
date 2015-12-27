@@ -12,7 +12,7 @@ import android.view.LayoutInflater;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.axis.jplayer.R;
+import com.axis.coolcat.R;
 
 /**
  * @author lq 2013-6-1 lq2625304@gmail.com

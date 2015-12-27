@@ -54,7 +54,7 @@ import android.util.Log;
 import android.widget.Toast;
 
 import com.axis.activity.MainContentActivity;
-import com.axis.jplayer.R;
+import com.axis.coolcat.R;
 import com.axis.entity.LyricSentence;
 import com.axis.entity.TrackInfo;
 import com.axis.fragment.SettingFragment;

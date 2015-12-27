@@ -26,7 +26,7 @@ import com.axis.fragment.EditTextDialogFragment;
 import com.axis.fragment.EditTextDialogFragment.OnMyDialogInputListener;
 import com.axis.fragment.SettingFragment;
 import com.axis.util.Constant;
-import com.axis.jplayer.R;
+import com.axis.coolcat.R;
 import com.umeng.analytics.MobclickAgent;
 
 /**

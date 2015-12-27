@@ -22,7 +22,7 @@ import com.axis.fragment.FrameLocalMusicFragment;
 import com.axis.fragment.MenuFragment;
 import com.axis.fragment.PromptDialogFragment;
 import com.axis.service.MusicService;
-import com.axis.jplayer.R;
+import com.axis.coolcat.R;
 import com.slidingmenu.lib.SlidingMenu;
 import com.umeng.analytics.MobclickAgent;
 

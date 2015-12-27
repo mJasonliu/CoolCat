@@ -12,7 +12,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.axis.jplayer.R;
+import com.axis.coolcat.R;
 import com.axis.entity.LyricSentence;
 /**
  * @author lq 2013-6-1 lq2625304@gmail.com

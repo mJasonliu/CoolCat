@@ -16,7 +16,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.axis.activity.MutipleEditActivity;
-import com.axis.jplayer.R;
+import com.axis.coolcat.R;
 import com.axis.dao.PlaylistDAO;
 
 /**
