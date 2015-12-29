@@ -1,5 +1,0 @@
-E:\Computer\Andriod\mine\app\MusicPlayer\app\build\intermediates\classes\debug
-E:\Computer\Andriod\mine\app\MusicPlayer\app\build\intermediates\pre-dexed\debug\pinyin4j-2.5.0-8cd7b224dce941129773b48de20e80e4b8efedd7.jar
-E:\Computer\Andriod\mine\app\MusicPlayer\app\build\intermediates\pre-dexed\debug\umeng_sdk-adb03e06a6f85bfd64f9f720b5877f2550a66f03.jar
-E:\Computer\Andriod\mine\app\MusicPlayer\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-4881128e0756eb43eab547b4f61cc3960e7f83cd.jar
-E:\Computer\Andriod\mine\app\MusicPlayer\app\build\intermediates\pre-dexed\debug\libGoogleAnalyticsServices-a3cffccd40cc687100cba2bd517df451e7ee9b94.jar

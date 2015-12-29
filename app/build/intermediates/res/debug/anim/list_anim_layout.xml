@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<layoutAnimation xmlns:android="http://schemas.android.com/apk/res/android"
-    android:animation="@anim/list_anim"
-    android:animationOrder="normal"
-    android:delay="10%" />
-<!-- From: file:/E:/Computer/Andriod/mine/app/MusicPlayer/app/src/main/res/anim/list_anim_layout.xml -->

@@ -1,3 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="F:\Work\Android_APP\MusicPlayer\app\libs\umeng_sdk.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="649e4dab7ecc977c1b4ec32ab19045f86a7b1c2a">
+        <dex dex="F:\Work\Android_APP\MusicPlayer\app\build\intermediates\pre-dexed\debug\umeng_sdk_7ab5c23c4531b17d8de9a08a6683f2c116a8b6f3.jar" />
+    </item>
+    <item
+        jar="F:\Work\Android_APP\MusicPlayer\app\libs\libGoogleAnalyticsServices.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="e887c6c9b31b39a39b0eaba981448b78902ea813">
+        <dex dex="F:\Work\Android_APP\MusicPlayer\app\build\intermediates\pre-dexed\debug\libGoogleAnalyticsServices_4c9e3fdc3603d9992904b2d89e620d3f5d2d0e2a.jar" />
+    </item>
+    <item
+        jar="D:\Coding\AndroidStudio\AndroidSDK\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="F:\Work\Android_APP\MusicPlayer\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0_3cf01f8a44500b6427dcea241e4b903f33157add.jar" />
+    </item>
+    <item
+        jar="F:\Work\Android_APP\MusicPlayer\app\libs\pinyin4j-2.5.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="ae353005f973da1cd8545b54354504c2503f6865">
+        <dex dex="F:\Work\Android_APP\MusicPlayer\app\build\intermediates\pre-dexed\debug\pinyin4j-2.5.0_97315abc33c0bdee267b33edf6c1f8fcfe8501dd.jar" />
+    </item>
+
+</items>

@@ -80,10 +80,6 @@
         "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\key_default_2.png"
     },
     {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
-    },
-    {
         "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_favorite.png",
         "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\button_favorite.png"
     },

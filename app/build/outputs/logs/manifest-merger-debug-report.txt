@@ -58,7 +58,7 @@ ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:18:5
 meta-data#UMENG_CHANNEL
 ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:22:5-25:17
 	android:value
-		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:24:9-31
+		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:24:9-33
 	android:name
 		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:23:9-37
 application
