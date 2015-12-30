@@ -60,8 +60,8 @@ public class SplashActivity extends FragmentActivity {
 
 	private void initUmengSDK() {
 		MobclickAgent.openActivityDurationTrack(true);
+		MobclickAgent.setDebugMode(false);
 		MobclickAgent.updateOnlineConfig(this);
-		MobclickAgent.onError(this);
 	}
 
 	private static class MyHandler extends Handler {

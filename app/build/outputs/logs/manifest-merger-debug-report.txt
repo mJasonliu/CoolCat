@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:2:1-119:12
+ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:2:1-114:12
 	package
 		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:3:5-31
 		INJECTED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml
@@ -49,43 +49,47 @@ uses-permission#android.permission.READ_PHONE_STATE
 ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:16:5-75
 	android:name
 		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:16:22-72
-meta-data#UMENG_APPKEY
-ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:18:5-21:17
-	android:value
-		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:20:9-49
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:17:5-76
 	android:name
-		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:19:9-36
-meta-data#UMENG_CHANNEL
-ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:22:5-25:17
-	android:value
-		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:24:9-33
-	android:name
-		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:23:9-37
+		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:17:22-73
 application
-ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:27:5-117:19
+ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:20:5-112:19
 	android:label
-		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:30:9-41
+		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:23:9-41
 	android:allowBackup
-		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:28:9-35
+		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:21:9-35
 	android:icon
-		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:29:9-45
+		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:22:9-45
 	android:theme
-		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:31:9-40
+		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:24:9-40
 activity#com.axis.activity.MainContentActivity
-ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:32:9-39:20
+ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:25:9-32:20
 	android:screenOrientation
-		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:36:13-49
+		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:29:13-49
 	android:label
-		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:34:13-45
+		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:27:13-45
 	android:launchMode
-		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:35:13-44
+		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:28:13-44
 	android:uiOptions
-		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:38:13-57
+		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:31:13-57
 	android:theme
-		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:37:13-72
+		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:30:13-72
 	android:name
-		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:33:13-65
+		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:26:13-65
 activity#com.axis.activity.PlayerActivity
+ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:33:9-39:20
+	android:screenOrientation
+		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:37:13-49
+	android:label
+		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:35:13-45
+	android:launchMode
+		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:36:13-43
+	android:theme
+		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:38:13-72
+	android:name
+		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:34:13-60
+activity#com.axis.activity.MutipleEditActivity
 ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:40:9-46:20
 	android:screenOrientation
 		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:44:13-49
@@ -96,8 +100,8 @@ ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:40:9
 	android:theme
 		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:45:13-72
 	android:name
-		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:41:13-60
-activity#com.axis.activity.MutipleEditActivity
+		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:41:13-65
+activity#com.axis.activity.PlayQueueActivity
 ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:47:9-53:20
 	android:screenOrientation
 		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:51:13-49
@@ -106,10 +110,10 @@ ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:47:9
 	android:launchMode
 		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:50:13-43
 	android:theme
-		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:52:13-72
+		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:52:13-79
 	android:name
-		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:48:13-65
-activity#com.axis.activity.PlayQueueActivity
+		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:48:13-63
+activity#com.axis.activity.MyPreferenceActivity
 ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:54:9-60:20
 	android:screenOrientation
 		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:58:13-49
@@ -118,10 +122,10 @@ ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:54:9
 	android:launchMode
 		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:57:13-43
 	android:theme
-		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:59:13-79
+		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:59:13-72
 	android:name
-		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:55:13-63
-activity#com.axis.activity.MyPreferenceActivity
+		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:55:13-66
+activity#com.axis.activity.FolderChooseActivity
 ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:61:9-67:20
 	android:screenOrientation
 		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:65:13-49
@@ -133,7 +137,7 @@ ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:61:9
 		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:66:13-72
 	android:name
 		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:62:13-66
-activity#com.axis.activity.FolderChooseActivity
+activity#com.axis.activity.FeedbackActivity
 ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:68:9-74:20
 	android:screenOrientation
 		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:72:13-49
@@ -144,9 +148,9 @@ ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:68:9
 	android:theme
 		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:73:13-72
 	android:name
-		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:69:13-66
-activity#com.axis.activity.FeedbackActivity
-ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:75:9-81:20
+		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:69:13-62
+activity#com.axis.activity.SplashActivity
+ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:75:9-86:20
 	android:screenOrientation
 		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:79:13-49
 	android:label
@@ -156,74 +160,74 @@ ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:75:9
 	android:theme
 		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:80:13-72
 	android:name
-		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:76:13-62
-activity#com.axis.activity.SplashActivity
-ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:82:9-93:20
-	android:screenOrientation
-		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:86:13-49
-	android:label
-		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:84:13-45
-	android:launchMode
-		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:85:13-43
-	android:theme
-		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:87:13-72
-	android:name
-		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:83:13-60
+		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:76:13-60
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:88:13-92:29
+ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:81:13-85:29
 action#android.intent.action.MAIN
-ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:89:17-69
+ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:82:17-69
 	android:name
-		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:89:25-66
+		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:82:25-66
 category#android.intent.category.LAUNCHER
-ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:91:17-77
+ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:84:17-77
 	android:name
-		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:91:27-74
+		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:84:27-74
 service#com.axis.service.MusicService
-ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:95:9-105:19
+ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:88:9-98:19
 	android:exported
-		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:97:13-37
+		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:90:13-37
 	android:name
-		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:96:13-57
+		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:89:13-57
 intent-filter#com.lq.musicplayer.action.NEXT+com.lq.musicplayer.action.PAUSE+com.lq.musicplayer.action.PLAY+com.lq.musicplayer.action.PREVIOUS+com.lq.musicplayer.action.STOP
-ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:98:13-104:29
+ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:91:13-97:29
 action#com.lq.musicplayer.action.PLAY
-ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:99:17-73
+ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:92:17-73
 	android:name
-		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:99:25-70
+		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:92:25-70
 action#com.lq.musicplayer.action.PAUSE
-ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:100:17-74
+ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:93:17-74
 	android:name
-		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:100:25-71
+		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:93:25-71
 action#com.lq.musicplayer.action.STOP
-ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:101:17-73
+ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:94:17-73
 	android:name
-		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:101:25-70
+		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:94:25-70
 action#com.lq.musicplayer.action.PREVIOUS
+ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:95:17-77
+	android:name
+		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:95:25-74
+action#com.lq.musicplayer.action.NEXT
+ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:96:17-73
+	android:name
+		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:96:25-70
+receiver#com.axis.receiver.MediaButtonReceiver
+ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:100:9-104:20
+	android:name
+		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:100:19-71
+intent-filter#android.intent.action.MEDIA_BUTTON
+ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:101:13-103:29
+action#android.intent.action.MEDIA_BUTTON
 ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:102:17-77
 	android:name
 		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:102:25-74
-action#com.lq.musicplayer.action.NEXT
-ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:103:17-73
-	android:name
-		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:103:25-70
-receiver#com.axis.receiver.MediaButtonReceiver
-ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:107:9-111:20
-	android:name
-		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:107:19-71
-intent-filter#android.intent.action.MEDIA_BUTTON
-ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:108:13-110:29
-action#android.intent.action.MEDIA_BUTTON
-ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:109:17-77
-	android:name
-		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:109:25-74
 receiver#com.axis.receiver.AudioBecomingNoisyReceiver
-ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:112:9-116:20
+ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:105:9-109:20
 	android:name
-		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:112:19-78
+		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:105:19-78
 intent-filter#android.media.AUDIO_BECOMING_NOISY
-ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:113:13-115:29
+ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:106:13-108:29
 action#android.media.AUDIO_BECOMING_NOISY
-ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:114:17-77
+ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:107:17-77
 	android:name
-		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:114:25-74
+		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:107:25-74
+meta-data#UMENG_APPKEY
+ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:110:9-101
+	android:value
+		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:110:20-60
+	android:name
+		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:110:61-88
+meta-data#UMENG_CHANNEL
+ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:111:9-75
+	android:value
+		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:111:20-44
+	android:name
+		ADDED from F:\Work\Android_APP\MusicPlayer\app\src\main\AndroidManifest.xml:111:45-73

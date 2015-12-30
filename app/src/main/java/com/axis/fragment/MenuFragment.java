@@ -66,7 +66,7 @@ public class MenuFragment extends ListFragment {
 		case 6:// TODO 意见反馈
 			startActivity(new Intent(getActivity(), FeedbackActivity.class));
 			break;
-		case 7:// TODO 支持作者
+		case 7:// TODO 关于在线音乐
 			supportMe();
 			break;
 		case 8:// TODO 退出

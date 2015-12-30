@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.axis.coolcat"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionCode="2"
+    android:versionName="1.1 -1_Beta" >
 
     <uses-sdk
         android:minSdkVersion="14"
@@ -14,15 +14,8 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
-    <meta-data
-        android:name="UMENG_APPKEY"
-        android:value="5680f7f0e0f55aa63a00318b" >
-    </meta-data>
-    <meta-data
-        android:name="UMENG_CHANNEL"
-        android:value="BaiDuAPP" >
-    </meta-data>
 
     <application
         android:allowBackup="true"
@@ -114,6 +107,8 @@
                 <action android:name="android.media.AUDIO_BECOMING_NOISY" />
             </intent-filter>
         </receiver>
+        <meta-data android:value="5680f7f0e0f55aa63a00318b" android:name="UMENG_APPKEY"></meta-data>
+        <meta-data android:value="BaiDuAPP" android:name="UMENG_CHANNEL"/>
     </application>
 
 </manifest>

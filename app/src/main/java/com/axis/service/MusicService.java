@@ -840,7 +840,7 @@ public class MusicService extends Service implements OnCompletionListener,
 						MainContentActivity.class),
 				PendingIntent.FLAG_UPDATE_CURRENT);
 		mNotification.setLatestEventInfo(getApplicationContext(),
-				"LQMusicPlayer", text, pi);
+				"CoolCat", text, pi);
 		mNotificationManager.notify(NOTIFICATION_ID, mNotification);
 	}
 
@@ -855,7 +855,7 @@ public class MusicService extends Service implements OnCompletionListener,
 				0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
 		mNotification = new Notification();
 		mNotification.tickerText = text;
-		mNotification.icon = R.drawable.ic_stat_playing;
+		mNotification.icon = R.drawable.ic_launcher;
 		mNotification.flags |= Notification.FLAG_ONGOING_EVENT;
 		mNotification.setLatestEventInfo(getApplicationContext(),
 				getResources().getString(R.string.app_name), text, pi);
