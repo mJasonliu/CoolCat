@@ -1,7 +1,23 @@
 [
     {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\go_to_play.png",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-xhdpi\\go_to_play.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\button_back.png",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-xhdpi\\button_back.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\button_next.png",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-xhdpi\\button_next.png"
+    },
+    {
         "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\overflow_white.png",
         "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-xhdpi\\overflow_white.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\button_playmode_shuffle.png",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-xhdpi\\button_playmode_shuffle.png"
     },
     {
         "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\default_list_album.png",
@@ -12,12 +28,32 @@
         "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-xhdpi\\button_next.png"
     },
     {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\default_list_album.png",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-xhdpi\\default_list_album.png"
+    },
+    {
         "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\button_previous.png",
         "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-xhdpi\\button_previous.png"
     },
     {
         "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\button_playmode_repeat.png",
         "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-xhdpi\\button_playmode_repeat.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\button_previous.png",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-xhdpi\\button_previous.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\button_play.png",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-xhdpi\\button_play.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\button_pause.png",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-xhdpi\\button_pause.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\button_playmode_repeat.png",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-xhdpi\\button_playmode_repeat.png"
     },
     {
         "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\button_back.png",
@@ -34,6 +70,10 @@
     {
         "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\go_to_play.png",
         "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-xhdpi\\go_to_play.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\overflow_white.png",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-xhdpi\\overflow_white.png"
     },
     {
         "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\button_pause.png",

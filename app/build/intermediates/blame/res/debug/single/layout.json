@@ -1,27 +1,35 @@
 [
     {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\welcome.xml",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\layout\\welcome.xml"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\top_of_local_music.xml",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\layout\\top_of_local_music.xml"
+    },
+    {
         "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout\\feedback.xml",
         "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\layout\\feedback.xml"
-    },
-    {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_track.xml",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\layout\\list_track.xml"
-    },
-    {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lyric_line.xml",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\layout\\lyric_line.xml"
     },
     {
         "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_playlist.xml",
         "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\layout\\select_playlist.xml"
     },
     {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_folder.xml",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\layout\\list_item_folder.xml"
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lyric_line.xml",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\layout\\lyric_line.xml"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_track.xml",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\layout\\list_track.xml"
     },
     {
         "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout\\edittext_dialog.xml",
         "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\layout\\edittext_dialog.xml"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_content.xml",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\layout\\layout_content.xml"
     },
     {
         "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout\\track_detail_dialog.xml",
@@ -40,28 +48,24 @@
         "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\layout\\list_item_track_mutiple.xml"
     },
     {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\system_preference.xml",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\layout\\system_preference.xml"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\track_detail_dialog.xml",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\layout\\track_detail_dialog.xml"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_album.xml",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\layout\\list_item_album.xml"
+    },
+    {
         "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_musicplay.xml",
         "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\layout\\layout_musicplay.xml"
     },
     {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_folder.xml",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\layout\\list_folder.xml"
-    },
-    {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_album.xml",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\layout\\list_item_album.xml"
-    },
-    {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout\\welcome.xml",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\layout\\welcome.xml"
-    },
-    {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_playlist.xml",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\layout\\list_playlist.xml"
-    },
-    {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout\\top_of_local_music.xml",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\layout\\top_of_local_music.xml"
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_menu.xml",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\layout\\list_item_menu.xml"
     },
     {
         "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_menu.xml",
@@ -72,20 +76,140 @@
         "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\layout\\list_playqueue.xml"
     },
     {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mutiple_choose.xml",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\layout\\mutiple_choose.xml"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_album.xml",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\layout\\list_album.xml"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_folder_choose.xml",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\layout\\list_item_folder_choose.xml"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_content.xml",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\layout\\layout_content.xml"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout\\system_preference.xml",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\layout\\system_preference.xml"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout\\folder_choose.xml",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\layout\\folder_choose.xml"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_section.xml",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\layout\\list_item_section.xml"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_track.xml",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\layout\\list_item_track.xml"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_folder.xml",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\layout\\list_folder.xml"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_menu.xml",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\layout\\list_item_menu.xml"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_track_mutiple.xml",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\layout\\list_item_track_mutiple.xml"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_folder.xml",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\layout\\list_item_folder.xml"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\frame_for_nested_fragment.xml",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\layout\\frame_for_nested_fragment.xml"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_playqueue.xml",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\layout\\list_playqueue.xml"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\edittext_dialog.xml",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\layout\\edittext_dialog.xml"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mutiple_choose.xml",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\layout\\mutiple_choose.xml"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_playlist.xml",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\layout\\select_playlist.xml"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_folder.xml",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\layout\\list_item_folder.xml"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_playlist.xml",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\layout\\list_item_playlist.xml"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_track.xml",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\layout\\list_track.xml"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\feedback.xml",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\layout\\feedback.xml"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\t9_keyboard.xml",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\layout\\t9_keyboard.xml"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_artist.xml",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\layout\\list_artist.xml"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_musicplay.xml",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\layout\\layout_musicplay.xml"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_folder.xml",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\layout\\list_folder.xml"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_playlist.xml",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\layout\\list_playlist.xml"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_album.xml",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\layout\\list_item_album.xml"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout\\welcome.xml",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\layout\\welcome.xml"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lyric_line.xml",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\layout\\lyric_line.xml"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_playlist.xml",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\layout\\list_playlist.xml"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\folder_choose.xml",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\layout\\folder_choose.xml"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout\\top_of_local_music.xml",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\layout\\top_of_local_music.xml"
+    },
+    {
         "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout\\frame_for_nested_fragment.xml",
         "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\layout\\frame_for_nested_fragment.xml"
     },
     {
         "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_track.xml",
         "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\layout\\list_item_track.xml"
-    },
-    {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mutiple_choose.xml",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\layout\\mutiple_choose.xml"
-    },
-    {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_content.xml",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\layout\\layout_content.xml"
     },
     {
         "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_artist.xml",
@@ -96,27 +220,23 @@
         "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\layout\\t9_keyboard.xml"
     },
     {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout\\folder_choose.xml",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\layout\\folder_choose.xml"
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_section.xml",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\layout\\list_item_section.xml"
     },
     {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout\\system_preference.xml",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\layout\\system_preference.xml"
-    },
-    {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_section.xml",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\layout\\list_item_section.xml"
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_artist.xml",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\layout\\list_item_artist.xml"
     },
     {
         "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_folder_choose.xml",
         "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\layout\\list_item_folder_choose.xml"
     },
     {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_menu.xml",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\layout\\list_item_menu.xml"
-    },
-    {
         "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_playlist.xml",
         "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\layout\\list_item_playlist.xml"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_menu.xml",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\layout\\layout_menu.xml"
     }
 ]

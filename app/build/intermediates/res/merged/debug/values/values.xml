@@ -10,7 +10,7 @@
     <string-array name="menu_othersettings">
         <item>系统设置</item>
         <item>意见反馈</item>
-        <item>支持作者</item>
+        <item>关于在线音乐</item>
         <item>退出</item>
     </string-array>
     <bool name="ga_autoActivityTracking">true</bool>
@@ -102,7 +102,7 @@
     <string name="lyric_save_path">歌词保存路径</string>
     <string name="lyric_setting">歌词设置</string>
     <string name="mutiple_choose">多选</string>
-    <string name="my_alipay">https://me.alipay.com/avatarqing</string>
+    <string name="my_alipay">http://music.baidu.com/</string>
     <string name="my_music">我的音乐</string>
     <string name="other_functions">其他功能</string>
     <string name="other_settings">其他设置</string>
@@ -143,7 +143,7 @@
     <string name="sort_by_playlist_modified_time">按修改时间排序</string>
     <string name="sort_by_playlist_name">按名称排序</string>
     <string name="sumbit">提交</string>
-    <string name="support_developer">如果您觉得本作品对您有所帮助，不妨请作者喝一杯咖啡，再小的力量也是一种支持！</string>
+    <string name="support_developer">在线音乐功能正在开发当中，点击“确定”按钮，到百度音乐下载你喜欢的歌曲！</string>
     <string name="system_setting">系统设置</string>
     <string name="there_is_a_duplicated_folder">已存在同名目录</string>
     <string name="there_is_no_lyric_yet">暂无歌词</string>
