@@ -9,7 +9,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.google.analytics.tracking.android.EasyTracker;
 import com.axis.util.Constant;
 import com.axis.coolcat.R;
 import com.umeng.analytics.MobclickAgent;
@@ -35,7 +34,6 @@ public class FeedbackActivity extends FragmentActivity implements
 	@Override
 	protected void onStart() {
 		super.onStart();
-		EasyTracker.getInstance(this).activityStart(this);
 	}
 
 	@Override
@@ -53,7 +51,6 @@ public class FeedbackActivity extends FragmentActivity implements
 	@Override
 	protected void onStop() {
 		super.onStop();
-		EasyTracker.getInstance(this).activityStop(this);
 	}
 
 	private void findViews() {

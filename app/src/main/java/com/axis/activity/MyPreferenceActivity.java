@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
-import com.google.analytics.tracking.android.EasyTracker;
 import com.axis.fragment.SettingFragment;
 import com.axis.coolcat.R;
 import com.umeng.analytics.MobclickAgent;
@@ -40,7 +39,6 @@ public class MyPreferenceActivity extends Activity {
 	@Override
 	protected void onStart() {
 		super.onStart();
-		EasyTracker.getInstance(this).activityStart(this);
 	}
 
 	@Override
@@ -58,6 +56,5 @@ public class MyPreferenceActivity extends Activity {
 	@Override
 	protected void onStop() {
 		super.onStop();
-		EasyTracker.getInstance(this).activityStop(this);
 	}
 }

@@ -8,7 +8,6 @@ import android.os.Handler;
 import android.os.Message;
 import android.support.v4.app.FragmentActivity;
 
-import com.google.analytics.tracking.android.EasyTracker;
 import com.axis.coolcat.R;
 import com.umeng.analytics.MobclickAgent;
 
@@ -32,7 +31,6 @@ public class SplashActivity extends FragmentActivity {
 	@Override
 	protected void onStart() {
 		super.onStart();
-		EasyTracker.getInstance(this).activityStart(this);
 	}
 
 	@Override
@@ -50,7 +48,6 @@ public class SplashActivity extends FragmentActivity {
 	@Override
 	protected void onStop() {
 		super.onStop();
-		EasyTracker.getInstance(this).activityStop(this);
 	}
 
 	@Override

@@ -27,7 +27,6 @@ import android.widget.PopupMenu.OnMenuItemClickListener;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
-import com.google.analytics.tracking.android.EasyTracker;
 import com.axis.adapter.LyricAdapter;
 import com.axis.entity.LyricSentence;
 import com.axis.entity.TrackInfo;
@@ -158,7 +157,6 @@ public class PlayerActivity extends FragmentActivity {
 		bindService(new Intent(PlayerActivity.this, MusicService.class),
 				mServiceConnection, Context.BIND_AUTO_CREATE);
 
-		EasyTracker.getInstance(this).activityStart(this);
 	}
 
 	@Override
@@ -187,7 +185,6 @@ public class PlayerActivity extends FragmentActivity {
 			mMusicServiceBinder = null;
 		}
 
-		EasyTracker.getInstance(this).activityStop(this);
 	}
 
 	@Override

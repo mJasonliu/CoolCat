@@ -23,7 +23,6 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.google.analytics.tracking.android.EasyTracker;
 import com.axis.entity.TrackInfo;
 import com.axis.fragment.PromptDialogFragment;
 import com.axis.listener.OnPlaybackStateChangeListener;
@@ -71,7 +70,6 @@ public class PlayQueueActivity extends FragmentActivity implements
 		bindService(new Intent(PlayQueueActivity.this, MusicService.class),
 				mServiceConnection, Context.BIND_AUTO_CREATE);
 
-		EasyTracker.getInstance(this).activityStart(this);
 	}
 
 	@Override
@@ -97,7 +95,6 @@ public class PlayQueueActivity extends FragmentActivity implements
 		mDataList = null;
 		mMusicServiceBinder = null;
 
-		EasyTracker.getInstance(this).activityStop(this);
 	}
 
 	@Override

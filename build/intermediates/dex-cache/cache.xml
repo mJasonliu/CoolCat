@@ -1,3 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="F:\Work\Android_APP\CoolCat\app\libs\libGoogleAnalyticsServices.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="e887c6c9b31b39a39b0eaba981448b78902ea813">
+        <dex dex="F:\Work\Android_APP\CoolCat\app\build\intermediates\pre-dexed\debug\libGoogleAnalyticsServices_23ad4967d312f8619ed27ae5151683764f40e3c4.jar" />
+    </item>
+    <item
+        jar="F:\Work\Android_APP\CoolCat\app\libs\pinyin4j-2.5.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="ae353005f973da1cd8545b54354504c2503f6865">
+        <dex dex="F:\Work\Android_APP\CoolCat\app\build\intermediates\pre-dexed\debug\pinyin4j-2.5.0_5f5ba912a009a2f20134cae8256782d83895c652.jar" />
+    </item>
+    <item
+        jar="D:\Coding\AndroidStudio\AndroidSDK\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="F:\Work\Android_APP\CoolCat\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0_3cf01f8a44500b6427dcea241e4b903f33157add.jar" />
+    </item>
+    <item
+        jar="F:\Work\Android_APP\CoolCat\app\libs\umeng-analytics-v5.6.4.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="76fed6d2233b958f0c1d589aa366785e0ab5c8f1">
+        <dex dex="F:\Work\Android_APP\CoolCat\app\build\intermediates\pre-dexed\debug\umeng-analytics-v5.6.4_3d4dc6befaa3ab6c1dca49bc3e35e4c0e7b5b207.jar" />
+    </item>
+
+</items>

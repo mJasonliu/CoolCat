@@ -17,7 +17,6 @@ import android.view.GestureDetector.SimpleOnGestureListener;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
 
-import com.google.analytics.tracking.android.EasyTracker;
 import com.axis.fragment.FrameLocalMusicFragment;
 import com.axis.fragment.MenuFragment;
 import com.axis.fragment.PromptDialogFragment;
@@ -126,7 +125,6 @@ public class MainContentActivity extends FragmentActivity implements
 	@Override
 	protected void onStart() {
 		super.onStart();
-		EasyTracker.getInstance(this).activityStart(this);
 	}
 
 	@Override
@@ -144,7 +142,6 @@ public class MainContentActivity extends FragmentActivity implements
 	@Override
 	protected void onStop() {
 		super.onStop();
-		EasyTracker.getInstance(this).activityStop(this);
 	}
 
 	@Override

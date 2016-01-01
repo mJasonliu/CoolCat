@@ -29,7 +29,6 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.analytics.tracking.android.EasyTracker;
 import com.axis.adapter.TrackMutipleChooseAdapter;
 import com.axis.dao.PlaylistDAO;
 import com.axis.entity.TrackInfo;
@@ -98,7 +97,6 @@ public class MutipleEditActivity extends FragmentActivity implements
 		bindService(new Intent(MutipleEditActivity.this, MusicService.class),
 				mServiceConnection, Context.BIND_AUTO_CREATE);
 
-		EasyTracker.getInstance(this).activityStart(this);
 	}
 
 	@Override
@@ -120,7 +118,6 @@ public class MutipleEditActivity extends FragmentActivity implements
 		// 本界面不可见时取消绑定服务
 		unbindService(mServiceConnection);
 
-		EasyTracker.getInstance(this).activityStop(this);
 	}
 
 	@Override

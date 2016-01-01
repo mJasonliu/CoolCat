@@ -21,7 +21,6 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.analytics.tracking.android.EasyTracker;
 import com.axis.fragment.EditTextDialogFragment;
 import com.axis.fragment.EditTextDialogFragment.OnMyDialogInputListener;
 import com.axis.fragment.SettingFragment;
@@ -67,7 +66,6 @@ public class FolderChooseActivity extends FragmentActivity {
 	@Override
 	protected void onStart() {
 		super.onStart();
-		EasyTracker.getInstance(this).activityStart(this);
 	}
 
 	@Override
@@ -85,7 +83,6 @@ public class FolderChooseActivity extends FragmentActivity {
 	@Override
 	protected void onStop() {
 		super.onStop();
-		EasyTracker.getInstance(this).activityStop(this);
 	}
 
 	OnMyDialogInputListener mCreateNewFolderListener = new OnMyDialogInputListener() {
