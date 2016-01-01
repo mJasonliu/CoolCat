@@ -172,6 +172,10 @@
         "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\layout\\layout_musicplay.xml"
     },
     {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_olmusic.xml",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\layout\\fragment_olmusic.xml"
+    },
+    {
         "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_folder.xml",
         "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\layout\\list_folder.xml"
     },

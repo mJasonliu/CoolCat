@@ -21,6 +21,6 @@ android {
 dependencies {
     compile files('libs/umeng_sdk.jar')
     compile files('libs/pinyin4j-2.5.0.jar')
-    compile 'com.android.support:support-v4:18.0.0'
     compile files('libs/umeng-analytics-v5.6.4.jar')
+    compile 'com.android.support:support-v4:18.0.0'
 }

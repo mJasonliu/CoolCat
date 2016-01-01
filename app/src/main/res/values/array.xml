@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <string-array name="ol_music">
+        <item>在线音乐</item>
+    </string-array>
     <string-array name="menu_mymusic">
         <item>本地音乐</item>
         <item>歌手</item>

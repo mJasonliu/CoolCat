@@ -45,31 +45,34 @@ public class MenuFragment extends ListFragment {
 		String newContent = null;
 		switch (position) {
 		// 对应res/array.xml中选项的顺序
-		case 0:// TODO 本地音乐
+		case 0:
+			newContent = OLMusicFragment.class.getName();
+			break;
+		case 1:// TODO 本地音乐
 			newContent = FrameLocalMusicFragment.class.getName();
 			break;
-		case 1:// TODO 歌手
+		case 2:// TODO 歌手
 			newContent = FrameArtistFragment.class.getName();
 			break;
-		case 2:// TODO 专辑
+		case 3:// TODO 专辑
 			newContent = FrameAlbumFragment.class.getName();
 			break;
-		case 3:// TODO 文件夹
+		case 4:// TODO 文件夹
 			newContent = FrameFolderFragment.class.getName();
 			break;
-		case 4:// TODO 收藏列表
+		case 5:// TODO 收藏列表
 			newContent = FramePlaylistFragment.class.getName();
 			break;
-		case 5:// TODO 系统设置
+		case 6:// TODO 系统设置
 			startActivity(new Intent(getActivity(), MyPreferenceActivity.class));
 			return;
-		case 6:// TODO 意见反馈
+		case 7:// TODO 意见反馈
 			startActivity(new Intent(getActivity(), FeedbackActivity.class));
 			break;
-		case 7:// TODO 关于在线音乐
+		case 8:// TODO 关于在线音乐
 			supportMe();
 			break;
-		case 8:// TODO 退出
+		case 9:// TODO 退出
 			((MainContentActivity) getActivity()).exit();
 			break;
 		}
@@ -118,9 +121,9 @@ public class MenuFragment extends ListFragment {
 	private List<Pair<String, List<String>>> getData() {
 		List<Pair<String, List<String>>> mDataList = new ArrayList<Pair<String, List<String>>>();
 		Resources res = getResources();
-		String[] section_titles = { res.getString(R.string.my_music),
+		String[] section_titles = { res.getString(R.string.musicol),res.getString(R.string.my_music),
 				res.getString(R.string.other_functions) };
-		String[][] menu_titles = { res.getStringArray(R.array.menu_mymusic),
+		String[][] menu_titles = { res.getStringArray(R.array.ol_music), res.getStringArray(R.array.menu_mymusic),
 				res.getStringArray(R.array.menu_othersettings) };
 		for (int i = 0; i < section_titles.length; i++) {
 			mDataList.add(new Pair<String, List<String>>(section_titles[i],

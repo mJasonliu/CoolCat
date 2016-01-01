@@ -19,7 +19,7 @@
 #   public *;
 #}
 -ignorewarnings
--keepattributes Signature
+-keepattributes SignatuÞre
 -keepclassmembers class * {
    public <init>(org.json.JSONObject);
 }

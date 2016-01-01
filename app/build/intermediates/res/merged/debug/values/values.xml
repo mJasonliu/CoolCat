@@ -13,6 +13,9 @@
         <item>关于在线音乐</item>
         <item>退出</item>
     </string-array>
+    <string-array name="ol_music">
+        <item>在线音乐</item>
+    </string-array>
     <bool name="ga_autoActivityTracking">true</bool>
     <bool name="ga_reportUncaughtExceptions">true</bool>
     <color name="black">#ff000000</color>
@@ -101,6 +104,7 @@
     <string name="lyric_Loading">正在加载歌词</string>
     <string name="lyric_save_path">歌词保存路径</string>
     <string name="lyric_setting">歌词设置</string>
+    <string name="musicol">在线音乐</string>
     <string name="mutiple_choose">多选</string>
     <string name="my_alipay">http://music.baidu.com/</string>
     <string name="my_music">我的音乐</string>
@@ -142,6 +146,9 @@
     <string name="sort_by_playlist_created_time">按创建时间排序</string>
     <string name="sort_by_playlist_modified_time">按修改时间排序</string>
     <string name="sort_by_playlist_name">按名称排序</string>
+    <string name="strOlMusic_bSearch">搜索</string>
+    <string name="strOlMusic_tSingerName">输入歌手名字: </string>
+    <string name="strOlMusic_tSongName">输入歌曲名称: </string>
     <string name="sumbit">提交</string>
     <string name="support_developer">在线音乐功能正在开发当中，点击“确定”按钮，到百度音乐下载你喜欢的歌曲！</string>
     <string name="system_setting">系统设置</string>
