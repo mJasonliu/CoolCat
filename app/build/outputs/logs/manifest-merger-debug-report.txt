@@ -1,233 +1,233 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:2:1-114:12
+ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:2:1-113:12
 	package
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:3:5-31
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:3:11-37
 		INJECTED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml
 		INJECTED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:5:5-38
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:5:11-44
 		INJECTED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml
 		INJECTED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml
 	android:versionCode
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:4:5-28
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:4:11-34
 		INJECTED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml
 		INJECTED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
-ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:7:5-9:41
+ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:7:5-9:44
 	android:targetSdkVersion
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:9:9-38
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:9:13-42
 		INJECTED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml
 		INJECTED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:8:13-39
 		INJECTED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml
 		INJECTED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.WAKE_LOCK
-ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:11:5-68
+ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:11:5-67
 	android:name
 		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:11:22-65
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:12:5-81
+ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:12:5-80
 	android:name
 		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:12:22-78
 uses-permission#android.permission.RESTART_PACKAGES
-ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:13:5-75
+ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:13:5-74
 	android:name
 		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:13:22-72
 uses-permission#android.permission.INTERNET
-ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:14:5-67
+ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:14:5-66
 	android:name
 		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:14:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:15:5-79
+ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:15:5-78
 	android:name
 		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:15:22-76
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:16:5-75
+ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:16:5-74
 	android:name
 		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:16:22-72
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:17:5-76
+ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:17:5-75
 	android:name
 		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:17:22-73
 application
-ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:20:5-112:19
+ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:19:5-111:19
 	android:label
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:23:9-41
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:22:13-45
 	android:allowBackup
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:21:9-35
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:20:13-39
 	android:icon
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:22:9-45
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:21:13-49
 	android:theme
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:24:9-40
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:23:13-44
 activity#com.axis.activity.MainContentActivity
-ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:25:9-32:20
+ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:24:9-31:20
 	android:screenOrientation
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:29:13-49
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:28:17-53
 	android:label
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:27:13-45
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:26:17-49
 	android:launchMode
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:28:13-44
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:27:17-48
 	android:uiOptions
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:31:13-57
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:30:17-61
 	android:theme
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:30:13-72
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:29:17-76
 	android:name
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:26:13-65
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:25:17-69
 activity#com.axis.activity.PlayerActivity
-ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:33:9-39:20
+ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:32:9-38:20
 	android:screenOrientation
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:37:13-49
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:36:17-53
 	android:label
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:35:13-45
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:34:17-49
 	android:launchMode
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:36:13-43
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:35:17-47
 	android:theme
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:38:13-72
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:37:17-76
 	android:name
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:34:13-60
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:33:17-64
 activity#com.axis.activity.MutipleEditActivity
-ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:40:9-46:20
+ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:39:9-45:20
 	android:screenOrientation
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:44:13-49
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:43:17-53
 	android:label
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:42:13-45
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:41:17-49
 	android:launchMode
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:43:13-43
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:42:17-47
 	android:theme
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:45:13-72
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:44:17-76
 	android:name
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:41:13-65
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:40:17-69
 activity#com.axis.activity.PlayQueueActivity
-ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:47:9-53:20
+ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:46:9-52:20
 	android:screenOrientation
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:51:13-49
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:50:17-53
 	android:label
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:49:13-45
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:48:17-49
 	android:launchMode
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:50:13-43
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:49:17-47
 	android:theme
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:52:13-79
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:51:17-83
 	android:name
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:48:13-63
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:47:17-67
 activity#com.axis.activity.MyPreferenceActivity
-ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:54:9-60:20
+ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:53:9-59:20
 	android:screenOrientation
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:58:13-49
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:57:17-53
 	android:label
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:56:13-45
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:55:17-49
 	android:launchMode
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:57:13-43
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:56:17-47
 	android:theme
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:59:13-72
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:58:17-76
 	android:name
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:55:13-66
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:54:17-70
 activity#com.axis.activity.FolderChooseActivity
-ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:61:9-67:20
+ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:60:9-66:20
 	android:screenOrientation
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:65:13-49
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:64:17-53
 	android:label
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:63:13-45
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:62:17-49
 	android:launchMode
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:64:13-43
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:63:17-47
 	android:theme
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:66:13-72
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:65:17-76
 	android:name
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:62:13-66
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:61:17-70
 activity#com.axis.activity.FeedbackActivity
-ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:68:9-74:20
+ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:67:9-73:20
 	android:screenOrientation
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:72:13-49
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:71:17-53
 	android:label
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:70:13-45
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:69:17-49
 	android:launchMode
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:71:13-43
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:70:17-47
 	android:theme
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:73:13-72
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:72:17-76
 	android:name
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:69:13-62
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:68:17-66
 activity#com.axis.activity.SplashActivity
-ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:75:9-86:20
+ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:74:9-85:20
 	android:screenOrientation
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:79:13-49
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:78:17-53
 	android:label
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:77:13-45
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:76:17-49
 	android:launchMode
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:78:13-43
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:77:17-47
 	android:theme
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:80:13-72
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:79:17-76
 	android:name
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:76:13-60
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:75:17-64
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:81:13-85:29
+ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:80:13-84:29
 action#android.intent.action.MAIN
-ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:82:17-69
+ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:81:17-68
 	android:name
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:82:25-66
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:81:25-66
 category#android.intent.category.LAUNCHER
-ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:84:17-77
+ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:83:17-76
 	android:name
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:84:27-74
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:83:27-74
 service#com.axis.service.MusicService
-ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:88:9-98:19
+ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:87:9-97:19
 	android:exported
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:90:13-37
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:89:17-41
 	android:name
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:89:13-57
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:88:17-61
 intent-filter#com.lq.musicplayer.action.NEXT+com.lq.musicplayer.action.PAUSE+com.lq.musicplayer.action.PLAY+com.lq.musicplayer.action.PREVIOUS+com.lq.musicplayer.action.STOP
-ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:91:13-97:29
+ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:90:13-96:29
 action#com.lq.musicplayer.action.PLAY
+ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:91:17-72
+	android:name
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:91:25-70
+action#com.lq.musicplayer.action.PAUSE
 ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:92:17-73
 	android:name
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:92:25-70
-action#com.lq.musicplayer.action.PAUSE
-ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:93:17-74
-	android:name
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:93:25-71
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:92:25-71
 action#com.lq.musicplayer.action.STOP
-ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:94:17-73
+ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:93:17-72
 	android:name
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:94:25-70
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:93:25-70
 action#com.lq.musicplayer.action.PREVIOUS
-ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:95:17-77
+ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:94:17-76
 	android:name
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:95:25-74
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:94:25-74
 action#com.lq.musicplayer.action.NEXT
-ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:96:17-73
+ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:95:17-72
 	android:name
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:96:25-70
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:95:25-70
 receiver#com.axis.receiver.MediaButtonReceiver
-ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:100:9-104:20
+ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:99:9-103:20
 	android:name
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:100:19-71
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:99:19-71
 intent-filter#android.intent.action.MEDIA_BUTTON
-ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:101:13-103:29
+ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:100:13-102:29
 action#android.intent.action.MEDIA_BUTTON
-ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:102:17-77
+ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:101:17-76
 	android:name
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:102:25-74
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:101:25-74
 receiver#com.axis.receiver.AudioBecomingNoisyReceiver
-ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:105:9-109:20
+ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:104:9-108:20
 	android:name
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:105:19-78
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:104:19-78
 intent-filter#android.media.AUDIO_BECOMING_NOISY
-ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:106:13-108:29
+ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:105:13-107:29
 action#android.media.AUDIO_BECOMING_NOISY
-ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:107:17-77
+ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:106:17-76
 	android:name
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:107:25-74
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:106:25-74
 meta-data#UMENG_APPKEY
-ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:110:9-101
+ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:109:9-101
 	android:value
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:110:20-60
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:109:20-60
 	android:name
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:110:61-88
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:109:61-88
 meta-data#UMENG_CHANNEL
-ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:111:9-75
+ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:110:9-75
 	android:value
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:111:20-44
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:110:20-44
 	android:name
-		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:111:45-73
+		ADDED from F:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:110:45-73

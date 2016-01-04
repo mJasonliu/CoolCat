@@ -147,8 +147,8 @@
     <string name="sort_by_playlist_modified_time">按修改时间排序</string>
     <string name="sort_by_playlist_name">按名称排序</string>
     <string name="strOlMusic_bSearch">搜索</string>
-    <string name="strOlMusic_tSingerName">输入歌手名字: </string>
-    <string name="strOlMusic_tSongName">输入歌曲名称: </string>
+    <string name="strOlMusic_tSingerName">输入歌手名字:</string>
+    <string name="strOlMusic_tSongName">输入歌曲名称:</string>
     <string name="sumbit">提交</string>
     <string name="support_developer">在线音乐功能正在开发当中，点击“确定”按钮，到百度音乐下载你喜欢的歌曲！</string>
     <string name="system_setting">系统设置</string>

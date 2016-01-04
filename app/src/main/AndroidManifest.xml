@@ -1,110 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.axis.coolcat"
-    android:versionCode="2"
-    android:versionName="1.1 -1_Beta" >
+          package="com.axis.coolcat"
+          android:versionCode="2"
+          android:versionName="1.1 -1_Beta">
 
     <uses-sdk
-        android:minSdkVersion="14"
-        android:targetSdkVersion="14" />
+            android:minSdkVersion="14"
+            android:targetSdkVersion="14"/>
 
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RESTART_PACKAGES"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
 
     <application
-        android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
-        <activity
-            android:name="com.axis.activity.MainContentActivity"
+            android:allowBackup="true"
+            android:icon="@drawable/ic_launcher"
             android:label="@string/app_name"
-            android:launchMode="singleTask"
-            android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
-            android:uiOptions="splitActionBarWhenNarrow" >
+            android:theme="@style/AppTheme">
+        <activity
+                android:name="com.axis.activity.MainContentActivity"
+                android:label="@string/app_name"
+                android:launchMode="singleTask"
+                android:screenOrientation="portrait"
+                android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+                android:uiOptions="splitActionBarWhenNarrow">
         </activity>
         <activity
-            android:name="com.axis.activity.PlayerActivity"
-            android:label="@string/app_name"
-            android:launchMode="singleTop"
-            android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+                android:name="com.axis.activity.PlayerActivity"
+                android:label="@string/app_name"
+                android:launchMode="singleTop"
+                android:screenOrientation="portrait"
+                android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <activity
-            android:name="com.axis.activity.MutipleEditActivity"
-            android:label="@string/app_name"
-            android:launchMode="singleTop"
-            android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+                android:name="com.axis.activity.MutipleEditActivity"
+                android:label="@string/app_name"
+                android:launchMode="singleTop"
+                android:screenOrientation="portrait"
+                android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <activity
-            android:name="com.axis.activity.PlayQueueActivity"
-            android:label="@string/app_name"
-            android:launchMode="singleTop"
-            android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.Dialog.NoActionBar" >
+                android:name="com.axis.activity.PlayQueueActivity"
+                android:label="@string/app_name"
+                android:launchMode="singleTop"
+                android:screenOrientation="portrait"
+                android:theme="@android:style/Theme.Holo.Light.Dialog.NoActionBar">
         </activity>
         <activity
-            android:name="com.axis.activity.MyPreferenceActivity"
-            android:label="@string/app_name"
-            android:launchMode="singleTop"
-            android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+                android:name="com.axis.activity.MyPreferenceActivity"
+                android:label="@string/app_name"
+                android:launchMode="singleTop"
+                android:screenOrientation="portrait"
+                android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <activity
-            android:name="com.axis.activity.FolderChooseActivity"
-            android:label="@string/app_name"
-            android:launchMode="singleTop"
-            android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+                android:name="com.axis.activity.FolderChooseActivity"
+                android:label="@string/app_name"
+                android:launchMode="singleTop"
+                android:screenOrientation="portrait"
+                android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <activity
-            android:name="com.axis.activity.FeedbackActivity"
-            android:label="@string/app_name"
-            android:launchMode="singleTop"
-            android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+                android:name="com.axis.activity.FeedbackActivity"
+                android:label="@string/app_name"
+                android:launchMode="singleTop"
+                android:screenOrientation="portrait"
+                android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <activity
-            android:name="com.axis.activity.SplashActivity"
-            android:label="@string/app_name"
-            android:launchMode="singleTop"
-            android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+                android:name="com.axis.activity.SplashActivity"
+                android:label="@string/app_name"
+                android:launchMode="singleTop"
+                android:screenOrientation="portrait"
+                android:theme="@android:style/Theme.Holo.Light.NoActionBar">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
 
         <service
-            android:name="com.axis.service.MusicService"
-            android:exported="false" >
+                android:name="com.axis.service.MusicService"
+                android:exported="false">
             <intent-filter>
-                <action android:name="com.lq.musicplayer.action.PLAY" />
-                <action android:name="com.lq.musicplayer.action.PAUSE" />
-                <action android:name="com.lq.musicplayer.action.STOP" />
-                <action android:name="com.lq.musicplayer.action.PREVIOUS" />
-                <action android:name="com.lq.musicplayer.action.NEXT" />
+                <action android:name="com.lq.musicplayer.action.PLAY"/>
+                <action android:name="com.lq.musicplayer.action.PAUSE"/>
+                <action android:name="com.lq.musicplayer.action.STOP"/>
+                <action android:name="com.lq.musicplayer.action.PREVIOUS"/>
+                <action android:name="com.lq.musicplayer.action.NEXT"/>
             </intent-filter>
         </service>
 
-        <receiver android:name="com.axis.receiver.MediaButtonReceiver" >
+        <receiver android:name="com.axis.receiver.MediaButtonReceiver">
             <intent-filter>
-                <action android:name="android.intent.action.MEDIA_BUTTON" />
+                <action android:name="android.intent.action.MEDIA_BUTTON"/>
             </intent-filter>
         </receiver>
-        <receiver android:name="com.axis.receiver.AudioBecomingNoisyReceiver" >
+        <receiver android:name="com.axis.receiver.AudioBecomingNoisyReceiver">
             <intent-filter>
-                <action android:name="android.media.AUDIO_BECOMING_NOISY" />
+                <action android:name="android.media.AUDIO_BECOMING_NOISY"/>
             </intent-filter>
         </receiver>
         <meta-data android:value="5680f7f0e0f55aa63a00318b" android:name="UMENG_APPKEY"></meta-data>

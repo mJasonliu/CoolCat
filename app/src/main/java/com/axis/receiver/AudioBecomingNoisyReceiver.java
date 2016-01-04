@@ -28,12 +28,12 @@ import com.axis.service.MusicService;
  * declaring it in a &lt;receiver&gt; tag in AndroidManifest.xml.
  */
 public class AudioBecomingNoisyReceiver extends BroadcastReceiver {
-	@Override
-	public void onReceive(Context ctx, Intent intent) {
-		if (intent.getAction().equals(
-				android.media.AudioManager.ACTION_AUDIO_BECOMING_NOISY)) {
-			// 通知音乐播放服务暂停音乐播放
-			ctx.startService(new Intent(MusicService.ACTION_PAUSE));
-		}
-	}
+    @Override
+    public void onReceive(Context ctx, Intent intent) {
+        if (intent.getAction().equals(
+                android.media.AudioManager.ACTION_AUDIO_BECOMING_NOISY)) {
+            // 通知音乐播放服务暂停音乐播放
+            ctx.startService(new Intent(MusicService.ACTION_PAUSE));
+        }
+    }
 }

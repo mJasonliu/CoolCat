@@ -11,35 +11,35 @@ import com.axis.util.Constant;
 
 /**
  * @author lq 2013-6-1 lq2625304@gmail.com
- * */
+ */
 public class FramePlaylistFragment extends Fragment {
 
-	@Override
-	public View onCreateView(LayoutInflater inflater, ViewGroup container,
-			Bundle savedInstanceState) {
-		View rootView = inflater.inflate(R.layout.frame_for_nested_fragment,
-				container, false);
-		return rootView;
-	}
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        View rootView = inflater.inflate(R.layout.frame_for_nested_fragment,
+                container, false);
+        return rootView;
+    }
 
-	@Override
-	public void onActivityCreated(Bundle savedInstanceState) {
-		super.onActivityCreated(savedInstanceState);
+    @Override
+    public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
 
-		Bundle args = new Bundle();
-		args.putString(Constant.PARENT, this.getClass().getSimpleName());
+        Bundle args = new Bundle();
+        args.putString(Constant.PARENT, this.getClass().getSimpleName());
 
-		getChildFragmentManager()
-				.beginTransaction()
-				.replace(
-						R.id.frame_for_nested_fragment,
-						Fragment.instantiate(getActivity(),
-								PlaylistBrowserFragment.class.getName(), args))
-				.commit();
-	}
+        getChildFragmentManager()
+                .beginTransaction()
+                .replace(
+                        R.id.frame_for_nested_fragment,
+                        Fragment.instantiate(getActivity(),
+                                PlaylistBrowserFragment.class.getName(), args))
+                .commit();
+    }
 
-	@Override
-	public void onSaveInstanceState(Bundle outState) {
+    @Override
+    public void onSaveInstanceState(Bundle outState) {
 
-	}
+    }
 }
