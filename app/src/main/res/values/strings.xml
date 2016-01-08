@@ -124,4 +124,8 @@
     <string name="strOlMusic_tSongName">输入歌曲名称:</string>
     <string name="strOlMusic_tSingerName">输入歌手名字:</string>
     <string name="strOlMusic_bSearch">搜索</string>
+
+    <!-- 在线音乐提示 -->
+    <string name="strOlMusic_toastDone">下载成功!</string>
+    <string name="strOlMusic_toastFail">下载失败,请检查输入是否有问题\n提示：歌手名可以不用输入，留空即可</string>
 </resources>

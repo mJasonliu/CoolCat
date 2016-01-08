@@ -1,12 +1,12 @@
-package com.axis.util;
+package com.axis.myinterface;
 
 /**
  * Created by Jason on 2016/1/4.
  */
-interface IDownLoadManager{
-    final static int QUALITY_LOW = 0;
-    public abstract void download(String url, String name, String singer, String path);
-//    public abstract void download();
+public interface IDownLoadManager{
+    int QUALITY_LOW = 0;
+    boolean download(String url, String name, String singer, String path);
+    boolean download(String url, String name, String path);
 //    public abstract void download();
 //    public abstract void download();
 //    public abstract void download();

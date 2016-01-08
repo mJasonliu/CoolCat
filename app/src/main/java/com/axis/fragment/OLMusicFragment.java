@@ -81,29 +81,46 @@ public class OLMusicFragment extends Fragment implements View.OnClickListener {
     }
 
 
-
     private void fail() {
-        Toast.makeText(getActivity(), "下载失败", Toast.LENGTH_LONG).show();
+        Toast.makeText(getActivity(), R.string.strOlMusic_toastFail, Toast.LENGTH_LONG).show();
     }
 
     private void done() {
 
-        Toast.makeText(getActivity(), "下载成功", Toast.LENGTH_LONG).show();
+        Toast.makeText(getActivity(), R.string.strOlMusic_toastDone, Toast.LENGTH_LONG).show();
     }
-    class myRun implements Runnable{
+
+    class myRun implements Runnable {
 
 
         @Override
         public void run() {
             // FIXME: 2016/1/4
-            System.out.println("running================================="+Thread.currentThread().getName());
+            System.out.println("running=================================" + Thread.currentThread().getName());
             md = new MusicDownloadManager();
             String name = eName.getText().toString();
             String singer = eSinger.getText().toString();
             String folderPath = PreferenceManager.getDefaultSharedPreferences(
                     getActivity()).getString(SettingFragment.KEY_LYRIC_SAVE_PATH,
                     Constant.LYRIC_SAVE_FOLDER_PATH);
-            md.download("http://box.zhangmen.baidu.com/x?op=12&count=1&title=", name, singer, folderPath);
+            if(name.equals("")){
+                wf.get().sendEmptyMessage(2);
+                return;
+            }
+            if (singer.equals("")) {
+                if (md.download("http://box.zhangmen.baidu.com/x?op=12&count=1&title=", name, singer, folderPath)) {
+                    wf.get().sendEmptyMessage(1);
+                } else {
+                    wf.get().sendEmptyMessage(2);
+                }
+
+            } else {
+                if (md.download("http://box.zhangmen.baidu.com/x?op=12&count=1&title=", name, singer, folderPath)) {
+                    wf.get().sendEmptyMessage(1);
+                } else {
+                    wf.get().sendEmptyMessage(2);
+                }
+            }
         }
     }
 }

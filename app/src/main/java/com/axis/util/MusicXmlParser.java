@@ -58,9 +58,12 @@ public class MusicXmlParser {
 //            for (int i = 0; i < list2.size(); i++) {
 //                urlList.add(list_1.get(i) + list_2.get(i));
 //            }
+            if (list_1.size()!=0){
+
             urlList.add(list_2.get(0)+list_1.get(0));
             System.out.println(urlList.get(0));
             return urlList;
+            }return null;
 
 
         } catch (IOException e) {

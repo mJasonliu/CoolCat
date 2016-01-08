@@ -8,28 +8,48 @@
         "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable\\checkbox_state.xml"
     },
     {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\playback_backround.xml",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable\\playback_backround.xml"
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow.xml",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable\\shadow.xml"
     },
     {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow.xml",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable\\shadow.xml"
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\playback_backround.xml",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable\\playback_backround.xml"
     },
     {
         "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_grey_backgound_when_pressed.xml",
         "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable\\button_grey_backgound_when_pressed.xml"
     },
     {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow.xml",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable\\shadow.xml"
+    },
+    {
         "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bottom_play_panel.xml",
         "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable\\bottom_play_panel.xml"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_items.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable\\button_items.png"
     },
     {
         "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_grey_bg.xml",
         "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable\\button_grey_bg.xml"
     },
     {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_pressed_blue_backround.xml",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable\\button_pressed_blue_backround.xml"
+    },
+    {
         "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_items.png",
         "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable\\button_items.png"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_grey_bg.xml",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable\\button_grey_bg.xml"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\playback_playingbar_seekbar_style.xml",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable\\playback_playingbar_seekbar_style.xml"
     },
     {
         "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\playback_playingbar_seekbar_style.xml",
@@ -48,8 +68,16 @@
         "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable\\button_pressed_blue_backround.xml"
     },
     {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_backround_deep.xml",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable\\button_backround_deep.xml"
+    },
+    {
         "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\playback_backround.xml",
         "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable\\playback_backround.xml"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_grey_backgound_when_pressed.xml",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable\\button_grey_backgound_when_pressed.xml"
     },
     {
         "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_backround_light.xml",
@@ -72,12 +100,28 @@
         "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable\\button_grey_bg.xml"
     },
     {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_backround_light.xml",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable\\button_backround_light.xml"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\playback_backround.xml",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable\\playback_backround.xml"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_state.xml",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable\\checkbox_state.xml"
+    },
+    {
         "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_grey_backgound_when_pressed.xml",
         "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable\\button_grey_backgound_when_pressed.xml"
     },
     {
         "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_state.xml",
         "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable\\checkbox_state.xml"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\playback_playingbar_seekbar_thumb.xml",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable\\playback_playingbar_seekbar_thumb.xml"
     },
     {
         "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_backround_deep.xml",
@@ -90,6 +134,10 @@
     {
         "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_pressed_blue_backround.xml",
         "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable\\button_pressed_blue_backround.xml"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bottom_play_panel.xml",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable\\bottom_play_panel.xml"
     },
     {
         "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bottom_play_panel.xml",

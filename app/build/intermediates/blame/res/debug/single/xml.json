@@ -6,5 +6,9 @@
     {
         "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\xml\\system_preference.xml",
         "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\xml\\system_preference.xml"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\xml\\system_preference.xml",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\xml\\system_preference.xml"
     }
 ]

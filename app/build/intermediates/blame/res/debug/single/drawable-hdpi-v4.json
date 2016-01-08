@@ -4,14 +4,6 @@
         "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\keyboard_switch_9.png"
     },
     {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_check_on_pressed.png",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\btn_check_on_pressed.png"
-    },
-    {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\audio_list_item_delete_default.png",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\audio_list_item_delete_default.png"
-    },
-    {
         "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\playback_playingbar_seekbar_thumb_default.png",
         "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\playback_playingbar_seekbar_thumb_default.png"
     },
@@ -24,10 +16,6 @@
         "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\button_items.png"
     },
     {
-        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\overflow_white.png",
-        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\overflow_white.png"
-    },
-    {
         "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\audio_list_item_addto_default.png",
         "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\audio_list_item_addto_default.png"
     },
@@ -36,76 +24,60 @@
         "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\icon_playlist__create.png"
     },
     {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_popupmenu_holo_light.png",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\icon_popupmenu_holo_light.png"
-    },
-    {
-        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\key_default_3.png",
-        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\key_default_3.png"
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_items.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\button_items.png"
     },
     {
         "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_back_up_default.png",
         "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\btn_back_up_default.png"
     },
     {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\playback_playingbar_seekbar_thumb_default.png",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\playback_playingbar_seekbar_thumb_default.png"
-    },
-    {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_pause.png",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\button_pause.png"
-    },
-    {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\player_bg.png",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\player_bg.png"
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_favorite_on.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\button_favorite_on.png"
     },
     {
         "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_menu_navigation_pressed.png",
         "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\button_menu_navigation_pressed.png"
     },
     {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\audio_list_item_rename_default.png",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\audio_list_item_rename_default.png"
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\player_bg.png",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\player_bg.png"
     },
     {
         "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\key_default_del.png",
         "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\key_default_del.png"
     },
     {
-        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\folder_list_item_default.png",
-        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\folder_list_item_default.png"
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_pop_window.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\icon_pop_window.png"
     },
     {
         "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\key_default_2.png",
         "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\key_default_2.png"
     },
     {
-        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\key_default_del.png",
-        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\key_default_del.png"
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\folder_list_item_default.png",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\folder_list_item_default.png"
     },
     {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_menu_navigation.png",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\button_menu_navigation.png"
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\keyboard_edit_4.jpg",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\keyboard_edit_4.jpg"
     },
     {
         "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\key_default_4.png",
         "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\key_default_4.png"
     },
     {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\key_default_2.png",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\key_default_2.png"
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\playback_playingbar_seekbar_thumb_pressed.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\playback_playingbar_seekbar_thumb_pressed.png"
     },
     {
-        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\keyboard_edit_3.jpg",
-        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\keyboard_edit_3.jpg"
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_list_common_bar_header_editmode.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\ic_list_common_bar_header_editmode.png"
     },
     {
         "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\playlist_local.png",
         "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\playlist_local.png"
-    },
-    {
-        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\audio_list_item_info_default.png",
-        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\audio_list_item_info_default.png"
     },
     {
         "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_title_back_close.png",
@@ -116,48 +88,44 @@
         "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\button_playmode_repeat.png"
     },
     {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\overflow_dark_pressed.png",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\overflow_dark_pressed.png"
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\key_default_8.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\key_default_8.png"
     },
     {
-        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_check_off_default.png",
-        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\btn_check_off_default.png"
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\overflow_dark_pressed.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\overflow_dark_pressed.png"
     },
     {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\keyboard_edit_2.jpg",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\keyboard_edit_2.jpg"
-    },
-    {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_stat_playing.png",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\ic_stat_playing.png"
-    },
-    {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\default_list_album.png",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\default_list_album.png"
-    },
-    {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\playlist_local.png",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\playlist_local.png"
-    },
-    {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\keyboard_edit_8.jpg",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\keyboard_edit_8.jpg"
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\keyboard_edit_6.jpg",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\keyboard_edit_6.jpg"
     },
     {
         "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_title_back_close.png",
         "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\btn_title_back_close.png"
     },
     {
-        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_back.png",
-        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\button_back.png"
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\keyboard_edit_8.jpg",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\keyboard_edit_8.jpg"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\playlist_local.png",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\playlist_local.png"
     },
     {
         "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\keyboard_edit_4.jpg",
         "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\keyboard_edit_4.jpg"
     },
     {
-        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\key_default_5.png",
-        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\key_default_5.png"
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\keyboard_edit_2.jpg",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\keyboard_edit_2.jpg"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\playback_playingbar_seekbar_thumb_default.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\playback_playingbar_seekbar_thumb_default.png"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_playmode_sequential.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\button_playmode_sequential.png"
     },
     {
         "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_playlist.png",
@@ -172,16 +140,12 @@
         "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\btn_back_up_default.png"
     },
     {
-        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_list_common_bar_header_allplay.png",
-        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\ic_list_common_bar_header_allplay.png"
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\keyboard_edit_8.jpg",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\keyboard_edit_8.jpg"
     },
     {
         "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_playmode_repeat.png",
         "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\button_playmode_repeat.png"
-    },
-    {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_list_common_bar_header_allplay.png",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\ic_list_common_bar_header_allplay.png"
     },
     {
         "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\keyboard_switch.png",
@@ -192,16 +156,12 @@
         "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\button_items.png"
     },
     {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\keyboard_edit_7.jpg",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\keyboard_edit_7.jpg"
-    },
-    {
         "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logo_bg.png",
         "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\logo_bg.png"
     },
     {
-        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_pause.png",
-        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\button_pause.png"
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\key_default_6.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\key_default_6.png"
     },
     {
         "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_list_common_bar_header_search.png",
@@ -212,8 +172,12 @@
         "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\audio_list_item_info_default.png"
     },
     {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_playlist.png",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\icon_playlist.png"
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_favorite.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\button_favorite.png"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\folder_list_item_default.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\folder_list_item_default.png"
     },
     {
         "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_list_common_bar_header_editmode.png",
@@ -222,6 +186,10 @@
     {
         "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\go_to_play.png",
         "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\go_to_play.png"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_add.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\icon_add.png"
     },
     {
         "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_pop_window.png",
@@ -236,160 +204,92 @@
         "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\ic_list_common_bar_header_search.png"
     },
     {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\key_default_4.png",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\key_default_4.png"
-    },
-    {
         "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\keyboard_switch_9.png",
         "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\keyboard_switch_9.png"
-    },
-    {
-        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\key_default_exit.png",
-        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\key_default_exit.png"
-    },
-    {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_playlist__create.png",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\icon_playlist__create.png"
     },
     {
         "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_stat_playing.png",
         "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\ic_stat_playing.png"
     },
     {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\key_default_7.png",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\key_default_7.png"
-    },
-    {
         "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_titile_back.png",
         "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\btn_titile_back.png"
-    },
-    {
-        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\audio_list_item_playlater_default.png",
-        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\audio_list_item_playlater_default.png"
-    },
-    {
-        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_playmode_sequential.png",
-        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\button_playmode_sequential.png"
     },
     {
         "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_menu_navigation.png",
         "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\button_menu_navigation.png"
     },
     {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_stat_playing.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\ic_stat_playing.png"
+    },
+    {
         "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\keyboard_edit_5.jpg",
         "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\keyboard_edit_5.jpg"
-    },
-    {
-        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\keyboard_edit_7.jpg",
-        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\keyboard_edit_7.jpg"
-    },
-    {
-        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\key_default_8.png",
-        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\key_default_8.png"
-    },
-    {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_previous.png",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\button_previous.png"
-    },
-    {
-        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\player_bg.png",
-        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\player_bg.png"
     },
     {
         "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\default_list_album.png",
         "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\default_list_album.png"
     },
     {
-        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\key_default_9.png",
-        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\key_default_9.png"
-    },
-    {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_check_off_default.png",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\btn_check_off_default.png"
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\overflow_white.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\overflow_white.png"
     },
     {
         "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_pop_window.png",
         "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\icon_pop_window.png"
     },
     {
-        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_favorite.png",
-        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\button_favorite.png"
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_check_off_default.png",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\btn_check_off_default.png"
     },
     {
-        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_popupmenu_holo_light.png",
-        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\icon_popupmenu_holo_light.png"
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\key_default_2.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\key_default_2.png"
     },
     {
-        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg.png",
-        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\bg.png"
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_menu_navigation_pressed.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\button_menu_navigation_pressed.png"
     },
     {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_back.png",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\button_back.png"
-    },
-    {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\keyboard_edit_4.jpg",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\keyboard_edit_4.jpg"
-    },
-    {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\key_default_6.png",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\key_default_6.png"
-    },
-    {
-        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_favorite_on.png",
-        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\button_favorite_on.png"
-    },
-    {
-        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\audio_list_item_delete_default.png",
-        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\audio_list_item_delete_default.png"
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\playlist_local.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\playlist_local.png"
     },
     {
         "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\playback_playingbar_seekbar_thumb_pressed.png",
         "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\playback_playingbar_seekbar_thumb_pressed.png"
     },
     {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_favorite.png",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\button_favorite.png"
-    },
-    {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logo_bg.png",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\logo_bg.png"
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\audio_list_item_info_default.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\audio_list_item_info_default.png"
     },
     {
         "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\keyboard_switch.png",
         "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\keyboard_switch.png"
     },
     {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_titile_back.png",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\btn_titile_back.png"
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_check_on_pressed.png",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\btn_check_on_pressed.png"
     },
     {
         "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\keyboard_edit_6.jpg",
         "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\keyboard_edit_6.jpg"
     },
     {
-        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\keyboard_edit_9.jpg",
-        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\keyboard_edit_9.jpg"
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_titile_back.png",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\btn_titile_back.png"
     },
     {
-        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_check_on_pressed.png",
-        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\btn_check_on_pressed.png"
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_playmode_repeat.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\button_playmode_repeat.png"
     },
     {
         "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\key_default_8.png",
         "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\key_default_8.png"
     },
     {
-        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_list_common_bar_header_editmode.png",
-        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\ic_list_common_bar_header_editmode.png"
-    },
-    {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\overflow_dark.png",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\overflow_dark.png"
-    },
-    {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\key_default_5.png",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\key_default_5.png"
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\overflow_dark.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\overflow_dark.png"
     },
     {
         "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\playback_playingbar_seekbar_thumb_pressed.png",
@@ -404,20 +304,12 @@
         "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\icon_add.png"
     },
     {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_menu_navigation_pressed.png",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\button_menu_navigation_pressed.png"
-    },
-    {
         "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\go_to_play.png",
         "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\go_to_play.png"
     },
     {
         "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\key_default_7.png",
         "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\key_default_7.png"
-    },
-    {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg.png",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\bg.png"
     },
     {
         "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\overflow_dark_pressed.png",
@@ -444,12 +336,12 @@
         "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\audio_list_item_rename_default.png"
     },
     {
-        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_previous.png",
-        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\button_previous.png"
-    },
-    {
         "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\overflow_dark.png",
         "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\overflow_dark.png"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\keyboard_edit_7.jpg",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\keyboard_edit_7.jpg"
     },
     {
         "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\key_default_6.png",
@@ -460,8 +352,16 @@
         "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\audio_list_item_playlater_default.png"
     },
     {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_list_common_bar_header_allplay.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\ic_list_common_bar_header_allplay.png"
+    },
+    {
         "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_playmode_sequential.png",
         "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\button_playmode_sequential.png"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_check_off_default.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\btn_check_off_default.png"
     },
     {
         "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_favorite_on.png",
@@ -472,12 +372,380 @@
         "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\key_default_9.png"
     },
     {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\keyboard_switch_9.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\keyboard_switch_9.png"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_titile_back.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\btn_titile_back.png"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\player_bg.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\player_bg.png"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\key_default_7.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\key_default_7.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\keyboard_edit_5.jpg",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\keyboard_edit_5.jpg"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\keyboard_edit_6.jpg",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\keyboard_edit_6.jpg"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_playmode_repeat_single.png",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\button_playmode_repeat_single.png"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_check_on_pressed.png",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\btn_check_on_pressed.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\audio_list_item_delete_default.png",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\audio_list_item_delete_default.png"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_back.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\button_back.png"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_previous.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\button_previous.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\overflow_white.png",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\overflow_white.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\key_default_3.png",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\key_default_3.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_popupmenu_holo_light.png",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\icon_popupmenu_holo_light.png"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\keyboard_edit_5.jpg",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\keyboard_edit_5.jpg"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\playback_playingbar_seekbar_thumb_default.png",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\playback_playingbar_seekbar_thumb_default.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_pause.png",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\button_pause.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\audio_list_item_rename_default.png",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\audio_list_item_rename_default.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\key_default_del.png",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\key_default_del.png"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\audio_list_item_delete_default.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\audio_list_item_delete_default.png"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\key_default_9.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\key_default_9.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_menu_navigation.png",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\button_menu_navigation.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\key_default_2.png",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\key_default_2.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\keyboard_edit_3.jpg",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\keyboard_edit_3.jpg"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\audio_list_item_rename_default.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\audio_list_item_rename_default.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\audio_list_item_info_default.png",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\audio_list_item_info_default.png"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\keyboard_edit_3.jpg",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\keyboard_edit_3.jpg"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\go_to_play.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\go_to_play.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\overflow_dark_pressed.png",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\overflow_dark_pressed.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_check_off_default.png",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\btn_check_off_default.png"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_menu_navigation.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\button_menu_navigation.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\keyboard_edit_2.jpg",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\keyboard_edit_2.jpg"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_pause.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\button_pause.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_stat_playing.png",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\ic_stat_playing.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\default_list_album.png",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\default_list_album.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_back.png",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\button_back.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\key_default_5.png",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\key_default_5.png"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logo_bg.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\logo_bg.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_list_common_bar_header_allplay.png",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\ic_list_common_bar_header_allplay.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_list_common_bar_header_allplay.png",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\ic_list_common_bar_header_allplay.png"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\audio_list_item_addto_default.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\audio_list_item_addto_default.png"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_title_back_close.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\btn_title_back_close.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\keyboard_edit_7.jpg",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\keyboard_edit_7.jpg"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\key_default_exit.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\key_default_exit.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_pause.png",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\button_pause.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_playlist.png",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\icon_playlist.png"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\default_list_album.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\default_list_album.png"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_back_up_default.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\btn_back_up_default.png"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\bg.png"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\key_default_del.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\key_default_del.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\key_default_4.png",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\key_default_4.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\key_default_exit.png",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\key_default_exit.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_playlist__create.png",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\icon_playlist__create.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\key_default_7.png",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\key_default_7.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\audio_list_item_playlater_default.png",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\audio_list_item_playlater_default.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_playmode_sequential.png",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\button_playmode_sequential.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\keyboard_edit_7.jpg",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\keyboard_edit_7.jpg"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\key_default_3.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\key_default_3.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\key_default_8.png",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\key_default_8.png"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_next.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\button_next.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_previous.png",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\button_previous.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\player_bg.png",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\player_bg.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\key_default_9.png",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\key_default_9.png"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_playmode_repeat_single.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\button_playmode_repeat_single.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_favorite.png",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\button_favorite.png"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_check_on_default.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\btn_check_on_default.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_popupmenu_holo_light.png",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\icon_popupmenu_holo_light.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg.png",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\bg.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_back.png",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\button_back.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\keyboard_edit_4.jpg",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\keyboard_edit_4.jpg"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\key_default_6.png",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\key_default_6.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_favorite_on.png",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\button_favorite_on.png"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_playmode_shuffle.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\button_playmode_shuffle.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\audio_list_item_delete_default.png",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\audio_list_item_delete_default.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_favorite.png",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\button_favorite.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logo_bg.png",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\logo_bg.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\keyboard_edit_9.jpg",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\keyboard_edit_9.jpg"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\keyboard_switch.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\keyboard_switch.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_list_common_bar_header_editmode.png",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\ic_list_common_bar_header_editmode.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\overflow_dark.png",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\overflow_dark.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\key_default_5.png",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\key_default_5.png"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\key_default_5.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\key_default_5.png"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_play.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\button_play.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_menu_navigation_pressed.png",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\button_menu_navigation_pressed.png"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\keyboard_edit_9.jpg",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\keyboard_edit_9.jpg"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg.png",
+        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\bg.png"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_list_common_bar_header_search.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\ic_list_common_bar_header_search.png"
+    },
+    {
+        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_previous.png",
+        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\button_previous.png"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\audio_list_item_playlater_default.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\audio_list_item_playlater_default.png"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_playlist__create.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\icon_playlist__create.png"
+    },
+    {
         "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_check_on_default.png",
         "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\btn_check_on_default.png"
     },
     {
         "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_play.png",
         "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\button_play.png"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_popupmenu_holo_light.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\icon_popupmenu_holo_light.png"
     },
     {
         "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_add.png",
@@ -492,12 +760,12 @@
         "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\keyboard_edit_2.jpg"
     },
     {
-        "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\keyboard_edit_5.jpg",
-        "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\keyboard_edit_5.jpg"
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_playlist.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\icon_playlist.png"
     },
     {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\keyboard_edit_6.jpg",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\keyboard_edit_6.jpg"
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_check_on_pressed.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\btn_check_on_pressed.png"
     },
     {
         "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\keyboard_edit_9.jpg",
@@ -510,10 +778,6 @@
     {
         "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_next.png",
         "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\button_next.png"
-    },
-    {
-        "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_playmode_repeat_single.png",
-        "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\button_playmode_repeat_single.png"
     },
     {
         "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_playmode_shuffle.png",
@@ -530,5 +794,9 @@
     {
         "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\overflow_white.png",
         "source": "F:\\Work\\Android_APP\\MusicPlayer\\app\\src\\main\\res\\drawable-hdpi\\overflow_white.png"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\key_default_4.png",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\drawable-hdpi\\key_default_4.png"
     }
 ]
