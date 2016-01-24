@@ -159,9 +159,9 @@ public class TrackBrowserFragment extends Fragment implements
      */
     @Override
     public void onHiddenChanged(boolean hidden) {
-        Log.i(TAG, "================我执行了");
+//        Log.i(TAG, "================我执行了");
         if(!hidden){
-            Log.i(TAG, "================我现身了");
+//            Log.i(TAG, "================我现身了");
             startWatchingExternalStorage();
             TrackBrowserFragment.this.getLoaderManager().restartLoader(
                     MUSIC_RETRIEVE_LOADER, null, TrackBrowserFragment.this);

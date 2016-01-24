@@ -2,7 +2,6 @@ package com.axis.fragment;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -33,7 +32,7 @@ public class FrameLocalMusicFragment extends Fragment {
         args.putInt(Constant.PARENT, Constant.START_FROM_LOCAL_MUSIC);
 
         fragment.setArguments(args);
-        Log.i(TAG , "我执行了一遍");
+//        Log.i(TAG , "我执行了一遍");
         getChildFragmentManager()
                 .beginTransaction()
                 .add(R.id.frame_for_nested_fragment, fragment)
@@ -50,14 +49,14 @@ public class FrameLocalMusicFragment extends Fragment {
      */
     @Override
     public void onHiddenChanged(boolean hidden) {
-        Log.i(TAG, "================我执行了");
+//        Log.i(TAG, "================我执行了");
 
         if(hidden) {
-            Log.i(TAG, "================我隐藏了");
+//            Log.i(TAG, "================我隐藏了");
 
             getChildFragmentManager().beginTransaction().hide(fragment).commit();
         }else {
-            Log.i(TAG, "================我现身了");
+//            Log.i(TAG, "================我现身了");
 
             getChildFragmentManager().beginTransaction().show(fragment).commit();
         }

@@ -1,8 +1,5 @@
 package com.axis.util;
 
-import android.os.Parcel;
-import android.os.Parcelable;
-
 /**
  * Created by Jason on 2016/1/19.
  */
@@ -44,6 +41,7 @@ public class AboutSong {
     }
 
     public String getArtistName() {
+        if (artistName.equals("\",")) return null;
         return artistName;
     }
 
@@ -56,6 +54,7 @@ public class AboutSong {
     }
 
     public String getAlbum() {
+        if (album.equals("\",")) return null;
         return album;
     }
 
