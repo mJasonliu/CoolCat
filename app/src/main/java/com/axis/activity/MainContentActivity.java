@@ -130,6 +130,8 @@ public class MainContentActivity extends FragmentActivity implements
         return mSlidingMenu;
     }
 
+
+
     @Override
     protected void onStart() {
         super.onStart();

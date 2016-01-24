@@ -1,6 +1,7 @@
 package com.axis.fragment;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
@@ -51,9 +52,9 @@ public class SearchResultPage extends Fragment {
                 downloadManager.downloadMuisc(getActivity(), list.get(i).getSongLink(), list.get(i).getSongName(),
                         list.get(i).getArtistName(), getActivity().getSharedPreferences("settings", getActivity().MODE_PRIVATE).getString("key_music_save_path",
                                 Constant.MUSIC_SAVE_FOLDER_PATH));
-                downloadManager.downloadLyric(getActivity(),list.get(i).getLyricLink(),list.get(i).getSongName(), list.get(i).getArtistName(), getActivity().getSharedPreferences("settings", getActivity().MODE_PRIVATE).getString("key_lyric_save_path",
+                downloadManager.downloadLyric(getActivity(), list.get(i).getLyricLink(), list.get(i).getSongName(), list.get(i).getArtistName(), getActivity().getSharedPreferences("settings", getActivity().MODE_PRIVATE).getString("key_lyric_save_path",
                         Constant.LYRIC_SAVE_FOLDER_PATH));
-
+                getActivity().sendBroadcast(new Intent("COOLCAT_LIST_REFRESH"));
 
             }
         });

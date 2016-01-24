@@ -1,13 +1,5 @@
 package com.axis.fragment;
 
-import java.io.File;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 import android.app.Activity;
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
@@ -64,10 +56,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.axis.activity.MainContentActivity;
-import com.axis.activity.MainContentActivity.OnBackKeyPressedListener;
 import com.axis.activity.MutipleEditActivity;
-import com.axis.coolcat.R;
 import com.axis.adapter.TrackAdapter;
+import com.axis.coolcat.R;
 import com.axis.dao.PlaylistDAO;
 import com.axis.entity.AlbumInfo;
 import com.axis.entity.ArtistInfo;
@@ -77,9 +68,17 @@ import com.axis.entity.TrackInfo;
 import com.axis.listener.OnPlaybackStateChangeListener;
 import com.axis.loader.MusicRetrieveLoader;
 import com.axis.service.MusicService;
-import com.axis.service.MusicService.MusicPlaybackLocalBinder;
 import com.axis.util.Constant;
 import com.axis.util.StringHelper;
+
+import java.io.File;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 
 /**
  * 读取并显示设备外存上的音乐文件
@@ -88,28 +87,26 @@ import com.axis.util.StringHelper;
  */
 public class TrackBrowserFragment extends Fragment implements
         LoaderManager.LoaderCallbacks<List<TrackInfo>>, OnItemClickListener,
-        OnBackKeyPressedListener {
+        MainContentActivity.OnBackKeyPressedListener{
+    private static final int MUSIC_RETRIEVE_LOADER = 0;
+    /**
+     * T9键盘各数字键对应的正则表达式
+     */
+    private static String T9KEYS[] = {"", "", "[abc]", "[def]", "[ghi]",
+            "[jkl]", "[mno]", "[pqrs]", "[tuv]", "[wxyz]"};
     // 调试用的标记
     private final String TAG = this.getClass().getSimpleName();
-
-    private static final int MUSIC_RETRIEVE_LOADER = 0;
     private final int CONTEXT_MENU_ADD_TO_PLAYLIST = 1;
     private final int CONTEXT_MENU_CHECK_DETAIL = 2;
     private final int CONTEXT_MENU_DELETE = 3;
-
     /**
      * 手势检测
      */
     private GestureDetector mDetector = null;
-
     private String mSortOrder = Media.TITLE_KEY;
-
     private Bundle mCurrentPlayInfo = null;
-
     private boolean mHasNewData = false;
-
     private MainContentActivity mActivity = null;
-
     /**
      * 显示本地音乐的列表
      */
@@ -117,7 +114,6 @@ public class TrackBrowserFragment extends Fragment implements
     private View mView_EmptyNoStorage = null;
     private View mView_EmptyNoSong = null;
     private View mView_EmptyLoading = null;
-
     private ImageView mView_MenuNavigation = null;
     private ImageView mView_GoToPlayer = null;
     private ImageView mView_MoreFunctions = null;
@@ -130,52 +126,48 @@ public class TrackBrowserFragment extends Fragment implements
     private View mView_SearchCancel = null;
     private View mView_TrackOperations = null;
     private ImageView mView_KeyboardSwitcher = null;
-
     /**
      * 弹出的搜索软键盘是否是自定义的T9键盘
      */
     private boolean mIsT9Keyboard = true;
-
     private PopupMenu mOverflowPopupMenu = null;
-
     private PopupWindow mT9KeyBoardWindow = null;
-
     /**
      * 用来绑定数据至ListView的适配器
      */
     private TrackAdapter mAdapter = null;
     private List<TrackInfo> mOriginalData = new ArrayList<TrackInfo>();
     private List<TrackInfo> mShowData = new ArrayList<TrackInfo>();
-
     private ArtistInfo mArtistInfo = null;
     private FolderInfo mFolderInfo = null;
     private PlaylistInfo mPlaylistInfo = null;
     private AlbumInfo mAlbumInfo = null;
     private TrackInfo mToDeleteTrack = null;
     private TrackInfo mPlayingTrack = null;
-
     private SharedPreferences mSystemPreferences = null;
-
     private InputMethodManager mInputMethodManager = null;
+    private MusicService.MusicPlaybackLocalBinder mMusicServiceBinder = null;
 
-    private MusicPlaybackLocalBinder mMusicServiceBinder = null;
 
     /**
-     * 与Service连接时交互的类
+     * Called when the hidden state (as returned by {@link #isHidden()} of
+     * the fragment has changed.  Fragments start out not hidden; this will
+     * be called whenever the fragment changes state from that.
+     *
+     * @param hidden True if the fragment is now hidden, false if it is not
+     *               visible.
      */
-    private ServiceConnection mServiceConnection = new ServiceConnection() {
-        public void onServiceConnected(ComponentName className, IBinder service) {
-            Log.i(TAG, "onServiceConnected");
-            mMusicServiceBinder = (MusicPlaybackLocalBinder) service;
-            mMusicServiceBinder
-                    .registerOnPlaybackStateChangeListener(mOnPlaybackStateChangeListener);
-            mCurrentPlayInfo = mMusicServiceBinder.getCurrentPlayInfo();
+    @Override
+    public void onHiddenChanged(boolean hidden) {
+        Log.i(TAG, "================我执行了");
+        if(!hidden){
+            Log.i(TAG, "================我现身了");
+            startWatchingExternalStorage();
+            TrackBrowserFragment.this.getLoaderManager().restartLoader(
+                    MUSIC_RETRIEVE_LOADER, null, TrackBrowserFragment.this);
+            mAdapter.notifyDataSetChanged();
         }
-
-        // 与服务端连接异常丢失时才调用，调用unBindService不调用此方法哎
-        public void onServiceDisconnected(ComponentName className) {
-        }
-    };
+    }
 
     /**
      * 文件过滤设置改变的话重新加载显示数据
@@ -202,6 +194,236 @@ public class TrackBrowserFragment extends Fragment implements
             }
         }
     };
+    /**
+     * T9键盘按键处理
+     */
+    private OnClickListener mT9KeyClickedListener = new OnClickListener() {
+
+        @Override
+        public void onClick(View v) {
+            switch (v.getId()) {
+                case R.id.t9_key_2:
+                    appendImageSpan(R.drawable.keyboard_edit_2, 2);
+                    break;
+                case R.id.t9_key_3:
+                    appendImageSpan(R.drawable.keyboard_edit_3, 3);
+                    break;
+                case R.id.t9_key_4:
+                    appendImageSpan(R.drawable.keyboard_edit_4, 4);
+                    break;
+                case R.id.t9_key_5:
+                    appendImageSpan(R.drawable.keyboard_edit_5, 5);
+                    break;
+                case R.id.t9_key_6:
+                    appendImageSpan(R.drawable.keyboard_edit_6, 6);
+                    break;
+                case R.id.t9_key_7:
+                    appendImageSpan(R.drawable.keyboard_edit_7, 7);
+                    break;
+                case R.id.t9_key_8:
+                    appendImageSpan(R.drawable.keyboard_edit_8, 8);
+                    break;
+                case R.id.t9_key_9:
+                    appendImageSpan(R.drawable.keyboard_edit_9, 9);
+                    break;
+                case R.id.t9_exit:
+                    mT9KeyBoardWindow.dismiss();
+                    break;
+                case R.id.t9_delete:
+                    backDeleteImageSpan();
+                    break;
+                default:
+                    break;
+            }
+        }
+    };
+    private BroadcastReceiver mExternalStorageReceiver = new BroadcastReceiver() {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            if (intent.getAction().equals(Intent.ACTION_MEDIA_EJECT)
+                    || intent.getAction().equals(Intent.ACTION_MEDIA_REMOVED)
+                    || intent.getAction().equals(
+                    Intent.ACTION_MEDIA_BAD_REMOVAL)) {
+                // SD卡移除，设置列表为空
+                mView_TrackOperations.setVisibility(View.GONE);
+                mView_MoreFunctions.setClickable(false);
+                mView_Title.setText("");
+                mView_ListView.setEmptyView(mView_EmptyNoStorage);
+                mAdapter.setData(null);
+
+                // 提示SD卡不可用
+                Toast.makeText(getActivity(), R.string.sdcard_cannot_use,
+                        Toast.LENGTH_SHORT).show();
+            } else if (intent.getAction().equals(Intent.ACTION_MEDIA_MOUNTED)) {
+                // SD卡正常挂载,重新加载数据
+                mView_ListView.setEmptyView(mView_EmptyLoading);
+                TrackBrowserFragment.this.getLoaderManager().restartLoader(
+                        MUSIC_RETRIEVE_LOADER, null, TrackBrowserFragment.this);
+            }else if(intent.getAction().equals("COOLCAT_LIST_REFRESH")){
+                System.out.println("---------------------------------------------------bingo");
+                TrackBrowserFragment.this.getLoaderManager().restartLoader(
+                        MUSIC_RETRIEVE_LOADER, null, TrackBrowserFragment.this);
+            }
+
+        }
+    };
+    // 删除提醒对话框处理------------------------------------------------------------------
+    private DialogInterface.OnClickListener mDeletePromptListener = new DialogInterface.OnClickListener() {
+
+        @Override
+        public void onClick(DialogInterface dialog, int which) {
+            boolean isDeleted = false;
+            switch (getArguments().getInt(Constant.PARENT)) {
+                case Constant.START_FROM_PLAYLIST:
+                    // 从播放列表移除歌曲，不会删除文件
+                    isDeleted = PlaylistDAO.removeTrackFromPlaylist(getActivity()
+                                    .getContentResolver(), mPlaylistInfo.getId(),
+                            new long[]{mToDeleteTrack.getId()});
+                    if (isDeleted) {
+                        // 提示删除成功
+                        Toast.makeText(getActivity(),
+                                getResources().getString(R.string.remove_success),
+                                Toast.LENGTH_SHORT).show();
+                    }
+                    break;
+
+                default:
+                    // 删除的歌曲现在是否正在播放
+                    TrackInfo curTrack = mMusicServiceBinder.getCurrentPlayInfo()
+                            .getParcelable(Constant.PLAYING_MUSIC_ITEM);
+
+                    if (curTrack != null) {
+                        if (curTrack.getId() == mToDeleteTrack.getId()) {
+                            // 要删除的歌曲正在播放，则先播放下一首歌,如果没有下一首就停止播放
+                            mMusicServiceBinder
+                                    .removeSongFromCurrenPlaylist(mToDeleteTrack
+                                            .getId());
+                        }
+                    }
+
+                    // 删除指定的歌曲,在存储器上的文件和数据库里的记录都要删除
+                    PlaylistDAO.removeTrackFromDatabase(getActivity()
+                            .getContentResolver(), new long[]{mToDeleteTrack
+                            .getId()});
+                    isDeleted = PlaylistDAO.deleteFile(mToDeleteTrack.getData());
+                    if (isDeleted) {
+                        // 提示删除成功
+                        Toast.makeText(getActivity(),
+                                getResources().getString(R.string.delete_success),
+                                Toast.LENGTH_SHORT).show();
+                    }
+                    break;
+            }
+
+            if (!isDeleted) {
+                // 删除失败，提示失败信息
+                Toast.makeText(getActivity(),
+                        getResources().getString(R.string.delete_failed),
+                        Toast.LENGTH_SHORT).show();
+            } else {
+                // 重新读取数据库，更新列表显示
+                getLoaderManager().restartLoader(MUSIC_RETRIEVE_LOADER, null,
+                        TrackBrowserFragment.this);
+            }
+        }
+    };
+    private OnPlaybackStateChangeListener mOnPlaybackStateChangeListener = new OnPlaybackStateChangeListener() {
+
+        @Override
+        public void onMusicPlayed() {
+
+        }
+
+        @Override
+        public void onMusicPaused() {
+
+        }
+
+        @Override
+        public void onMusicStopped() {
+
+        }
+
+        @Override
+        public void onPlayNewSong(TrackInfo playingSong) {
+            mPlayingTrack = playingSong;
+            mAdapter.setSpecifiedIndicator(MusicService.seekPosInListById(
+                    mAdapter.getData(), playingSong.getId()));
+        }
+
+        @Override
+        public void onPlayModeChanged(int playMode) {
+
+        }
+
+        @Override
+        public void onPlayProgressUpdate(int currentMillis) {
+
+        }
+
+    };
+    /**
+     * 与Service连接时交互的类
+     */
+    private ServiceConnection mServiceConnection = new ServiceConnection() {
+        public void onServiceConnected(ComponentName className, IBinder service) {
+            Log.i(TAG, "onServiceConnected");
+            mMusicServiceBinder = (MusicService.MusicPlaybackLocalBinder) service;
+            mMusicServiceBinder
+                    .registerOnPlaybackStateChangeListener(mOnPlaybackStateChangeListener);
+            mCurrentPlayInfo = mMusicServiceBinder.getCurrentPlayInfo();
+        }
+
+        // 与服务端连接异常丢失时才调用，调用unBindService不调用此方法哎
+        public void onServiceDisconnected(ComponentName className) {
+        }
+    };
+    // 按歌曲名称顺序排序
+    private Comparator<TrackInfo> mTrackNameComparator = new Comparator<TrackInfo>() {
+        char first_l, first_r;
+
+        @Override
+        public int compare(TrackInfo lhs, TrackInfo rhs) {
+            first_l = lhs.getTitleKey().charAt(0);
+            first_r = rhs.getTitleKey().charAt(0);
+            if (StringHelper.checkType(first_l) == StringHelper.CharType.CHINESE) {
+                first_l = StringHelper.getPinyinFirstLetter(first_l);
+            }
+            if (StringHelper.checkType(first_r) == StringHelper.CharType.CHINESE) {
+                first_r = StringHelper.getPinyinFirstLetter(first_r);
+            }
+            if (first_l > first_r) {
+                return 1;
+            } else if (first_l < first_r) {
+                return -1;
+            } else {
+                return 0;
+            }
+        }
+    };
+    // 按歌曲名称顺序排序
+    private Comparator<TrackInfo> mArtistNameComparator = new Comparator<TrackInfo>() {
+        char first_l, first_r;
+
+        @Override
+        public int compare(TrackInfo lhs, TrackInfo rhs) {
+            first_l = lhs.getArtistKey().charAt(0);
+            first_r = rhs.getArtistKey().charAt(0);
+            if (StringHelper.checkType(first_l) == StringHelper.CharType.CHINESE) {
+                first_l = StringHelper.getPinyinFirstLetter(first_l);
+            }
+            if (StringHelper.checkType(first_r) == StringHelper.CharType.CHINESE) {
+                first_r = StringHelper.getPinyinFirstLetter(first_r);
+            }
+            if (first_l > first_r) {
+                return 1;
+            } else if (first_l < first_r) {
+                return -1;
+            } else {
+                return 0;
+            }
+        }
+    };
 
     @Override
     public void onAttach(Activity activity) {
@@ -224,6 +446,7 @@ public class TrackBrowserFragment extends Fragment implements
                 .getSystemService(Context.INPUT_METHOD_SERVICE);
     }
 
+
     /**
      * 在此加载一个ListView，可以使用自定义的ListView
      */
@@ -231,6 +454,7 @@ public class TrackBrowserFragment extends Fragment implements
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         Log.i(TAG, "onCreateView");
+
         ViewGroup rootView = (ViewGroup) inflater.inflate(R.layout.list_track,
                 container, false);
         mView_ListView = (ListView) rootView
@@ -294,6 +518,7 @@ public class TrackBrowserFragment extends Fragment implements
     public void onStart() {
         Log.i(TAG, "onStart");
         super.onStart();
+        mAdapter.notifyDataSetChanged();
         // 在Fragment可见时绑定服务 ，以使服务可以发送消息过来
         getActivity().bindService(
                 new Intent(getActivity(), MusicService.class),
@@ -307,8 +532,9 @@ public class TrackBrowserFragment extends Fragment implements
     public void onResume() {
         Log.i(TAG, "onResume");
         super.onResume();
-
         startWatchingExternalStorage();
+        mAdapter.notifyDataSetChanged();
+
     }
 
     @Override
@@ -748,50 +974,6 @@ public class TrackBrowserFragment extends Fragment implements
         mView_MoreFunctions.setClickable(false);
     }
 
-    /**
-     * T9键盘按键处理
-     */
-    private OnClickListener mT9KeyClickedListener = new OnClickListener() {
-
-        @Override
-        public void onClick(View v) {
-            switch (v.getId()) {
-                case R.id.t9_key_2:
-                    appendImageSpan(R.drawable.keyboard_edit_2, 2);
-                    break;
-                case R.id.t9_key_3:
-                    appendImageSpan(R.drawable.keyboard_edit_3, 3);
-                    break;
-                case R.id.t9_key_4:
-                    appendImageSpan(R.drawable.keyboard_edit_4, 4);
-                    break;
-                case R.id.t9_key_5:
-                    appendImageSpan(R.drawable.keyboard_edit_5, 5);
-                    break;
-                case R.id.t9_key_6:
-                    appendImageSpan(R.drawable.keyboard_edit_6, 6);
-                    break;
-                case R.id.t9_key_7:
-                    appendImageSpan(R.drawable.keyboard_edit_7, 7);
-                    break;
-                case R.id.t9_key_8:
-                    appendImageSpan(R.drawable.keyboard_edit_8, 8);
-                    break;
-                case R.id.t9_key_9:
-                    appendImageSpan(R.drawable.keyboard_edit_9, 9);
-                    break;
-                case R.id.t9_exit:
-                    mT9KeyBoardWindow.dismiss();
-                    break;
-                case R.id.t9_delete:
-                    backDeleteImageSpan();
-                    break;
-                default:
-                    break;
-            }
-        }
-    };
-
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position,
                             long id) {
@@ -873,6 +1055,8 @@ public class TrackBrowserFragment extends Fragment implements
         }
         return true;
     }
+
+    // 处理搜索的相关函数------------------------------------------------------------------
 
     /**
      * 在装载器需要被创建时执行此方法，这里只有一个装载器，所以我们不必关心装载器的ID
@@ -987,6 +1171,7 @@ public class TrackBrowserFragment extends Fragment implements
         if (mCurrentPlayInfo != null) {
             initCurrentPlayInfo(mCurrentPlayInfo);
         }
+        mAdapter.notifyDataSetChanged();
     }
 
     /**
@@ -1089,14 +1274,6 @@ public class TrackBrowserFragment extends Fragment implements
         mView_Title.setBackgroundResource(R.drawable.button_backround_light);
     }
 
-    // 处理搜索的相关函数------------------------------------------------------------------
-
-    /**
-     * T9键盘各数字键对应的正则表达式
-     */
-    private static String T9KEYS[] = {"", "", "[abc]", "[def]", "[ghi]",
-            "[jkl]", "[mno]", "[pqrs]", "[tuv]", "[wxyz]"};
-
     /**
      * 在搜索输入框末尾追加T9键的输入
      */
@@ -1135,7 +1312,7 @@ public class TrackBrowserFragment extends Fragment implements
     /**
      * T9键盘简拼、全拼搜索
      *
-     * @param str 输入的字符串，均为2~9的数字
+     * @param input 输入的字符串，均为2~9的数字
      */
     private void pinyinSearch(String input) {
         mShowData.clear();
@@ -1208,176 +1385,5 @@ public class TrackBrowserFragment extends Fragment implements
         intentFilter.addDataScheme("file");
         getActivity().registerReceiver(mExternalStorageReceiver, intentFilter);
     }
-
-    private BroadcastReceiver mExternalStorageReceiver = new BroadcastReceiver() {
-        @Override
-        public void onReceive(Context context, Intent intent) {
-            if (intent.getAction().equals(Intent.ACTION_MEDIA_EJECT)
-                    || intent.getAction().equals(Intent.ACTION_MEDIA_REMOVED)
-                    || intent.getAction().equals(
-                    Intent.ACTION_MEDIA_BAD_REMOVAL)) {
-                // SD卡移除，设置列表为空
-                mView_TrackOperations.setVisibility(View.GONE);
-                mView_MoreFunctions.setClickable(false);
-                mView_Title.setText("");
-                mView_ListView.setEmptyView(mView_EmptyNoStorage);
-                mAdapter.setData(null);
-
-                // 提示SD卡不可用
-                Toast.makeText(getActivity(), R.string.sdcard_cannot_use,
-                        Toast.LENGTH_SHORT).show();
-            } else if (intent.getAction().equals(Intent.ACTION_MEDIA_MOUNTED)) {
-                // SD卡正常挂载,重新加载数据
-                mView_ListView.setEmptyView(mView_EmptyLoading);
-                TrackBrowserFragment.this.getLoaderManager().restartLoader(
-                        MUSIC_RETRIEVE_LOADER, null, TrackBrowserFragment.this);
-            }
-
-        }
-    };
-
-    // 删除提醒对话框处理------------------------------------------------------------------
-    private DialogInterface.OnClickListener mDeletePromptListener = new DialogInterface.OnClickListener() {
-
-        @Override
-        public void onClick(DialogInterface dialog, int which) {
-            boolean isDeleted = false;
-            switch (getArguments().getInt(Constant.PARENT)) {
-                case Constant.START_FROM_PLAYLIST:
-                    // 从播放列表移除歌曲，不会删除文件
-                    isDeleted = PlaylistDAO.removeTrackFromPlaylist(getActivity()
-                                    .getContentResolver(), mPlaylistInfo.getId(),
-                            new long[]{mToDeleteTrack.getId()});
-                    if (isDeleted) {
-                        // 提示删除成功
-                        Toast.makeText(getActivity(),
-                                getResources().getString(R.string.remove_success),
-                                Toast.LENGTH_SHORT).show();
-                    }
-                    break;
-
-                default:
-                    // 删除的歌曲现在是否正在播放
-                    TrackInfo curTrack = mMusicServiceBinder.getCurrentPlayInfo()
-                            .getParcelable(Constant.PLAYING_MUSIC_ITEM);
-
-                    if (curTrack != null) {
-                        if (curTrack.getId() == mToDeleteTrack.getId()) {
-                            // 要删除的歌曲正在播放，则先播放下一首歌,如果没有下一首就停止播放
-                            mMusicServiceBinder
-                                    .removeSongFromCurrenPlaylist(mToDeleteTrack
-                                            .getId());
-                        }
-                    }
-
-                    // 删除指定的歌曲,在存储器上的文件和数据库里的记录都要删除
-                    PlaylistDAO.removeTrackFromDatabase(getActivity()
-                            .getContentResolver(), new long[]{mToDeleteTrack
-                            .getId()});
-                    isDeleted = PlaylistDAO.deleteFile(mToDeleteTrack.getData());
-                    if (isDeleted) {
-                        // 提示删除成功
-                        Toast.makeText(getActivity(),
-                                getResources().getString(R.string.delete_success),
-                                Toast.LENGTH_SHORT).show();
-                    }
-                    break;
-            }
-
-            if (!isDeleted) {
-                // 删除失败，提示失败信息
-                Toast.makeText(getActivity(),
-                        getResources().getString(R.string.delete_failed),
-                        Toast.LENGTH_SHORT).show();
-            } else {
-                // 重新读取数据库，更新列表显示
-                getLoaderManager().restartLoader(MUSIC_RETRIEVE_LOADER, null,
-                        TrackBrowserFragment.this);
-            }
-        }
-    };
-
-    private OnPlaybackStateChangeListener mOnPlaybackStateChangeListener = new OnPlaybackStateChangeListener() {
-
-        @Override
-        public void onMusicPlayed() {
-
-        }
-
-        @Override
-        public void onMusicPaused() {
-
-        }
-
-        @Override
-        public void onMusicStopped() {
-
-        }
-
-        @Override
-        public void onPlayNewSong(TrackInfo playingSong) {
-            mPlayingTrack = playingSong;
-            mAdapter.setSpecifiedIndicator(MusicService.seekPosInListById(
-                    mAdapter.getData(), playingSong.getId()));
-        }
-
-        @Override
-        public void onPlayModeChanged(int playMode) {
-
-        }
-
-        @Override
-        public void onPlayProgressUpdate(int currentMillis) {
-
-        }
-
-    };
-
-    // 按歌曲名称顺序排序
-    private Comparator<TrackInfo> mTrackNameComparator = new Comparator<TrackInfo>() {
-        char first_l, first_r;
-
-        @Override
-        public int compare(TrackInfo lhs, TrackInfo rhs) {
-            first_l = lhs.getTitleKey().charAt(0);
-            first_r = rhs.getTitleKey().charAt(0);
-            if (StringHelper.checkType(first_l) == StringHelper.CharType.CHINESE) {
-                first_l = StringHelper.getPinyinFirstLetter(first_l);
-            }
-            if (StringHelper.checkType(first_r) == StringHelper.CharType.CHINESE) {
-                first_r = StringHelper.getPinyinFirstLetter(first_r);
-            }
-            if (first_l > first_r) {
-                return 1;
-            } else if (first_l < first_r) {
-                return -1;
-            } else {
-                return 0;
-            }
-        }
-    };
-    // 按歌曲名称顺序排序
-    private Comparator<TrackInfo> mArtistNameComparator = new Comparator<TrackInfo>() {
-        char first_l, first_r;
-
-        @Override
-        public int compare(TrackInfo lhs, TrackInfo rhs) {
-            first_l = lhs.getArtistKey().charAt(0);
-            first_r = rhs.getArtistKey().charAt(0);
-            if (StringHelper.checkType(first_l) == StringHelper.CharType.CHINESE) {
-                first_l = StringHelper.getPinyinFirstLetter(first_l);
-            }
-            if (StringHelper.checkType(first_r) == StringHelper.CharType.CHINESE) {
-                first_r = StringHelper.getPinyinFirstLetter(first_r);
-            }
-            if (first_l > first_r) {
-                return 1;
-            } else if (first_l < first_r) {
-                return -1;
-            } else {
-                return 0;
-            }
-        }
-    };
 
 }

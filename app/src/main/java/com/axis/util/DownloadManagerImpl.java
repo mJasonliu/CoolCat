@@ -35,6 +35,7 @@ public class DownloadManagerImpl implements IDownLoadManager {
             @Override
             protected String doInBackground(String... strings) {
                 try {
+                    if(strings[0].equals("\","))return null;
 //                    System.out.println(strings[0]);
                     URL url = new URL(strings[0]);
                     URLConnection urlConnection = url.openConnection();
