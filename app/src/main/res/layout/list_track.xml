@@ -138,6 +138,8 @@
                 android:layout_height="match_parent"
                 android:cacheColorHint="#00000000"
                 android:fastScrollEnabled="true"
+            android:divider="@color/holo_blue_bright"
+            android:dividerHeight="2dp"
                 android:layoutAnimation="@anim/list_anim_layout">
         </ListView>
 

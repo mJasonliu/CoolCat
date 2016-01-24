@@ -67,6 +67,7 @@
     <string name="cancel">取消</string>
     <string name="check_detail">查看信息</string>
     <string name="choose_lyric_save_path">选择歌词保存路径</string>
+    <string name="choose_music_save_path">选择歌曲保存路径</string>
     <string name="classify_by_album">按专辑分类</string>
     <string name="classify_by_artist">按歌手分类</string>
     <string name="classify_by_folder">按文件夹分类</string>
@@ -104,6 +105,8 @@
     <string name="lyric_Loading">正在加载歌词</string>
     <string name="lyric_save_path">歌词保存路径</string>
     <string name="lyric_setting">歌词设置</string>
+    <string name="music_download_setting">音乐下载设置</string>
+    <string name="music_save_path">音乐保存路径</string>
     <string name="musicol">在线音乐</string>
     <string name="mutiple_choose">多选</string>
     <string name="my_alipay">http://music.baidu.com/</string>
@@ -147,8 +150,7 @@
     <string name="sort_by_playlist_modified_time">按修改时间排序</string>
     <string name="sort_by_playlist_name">按名称排序</string>
     <string name="strOlMusic_bSearch">搜索</string>
-    <string name="strOlMusic_tSingerName">输入歌手名字:</string>
-    <string name="strOlMusic_tSongName">输入歌曲名称:</string>
+    <string name="strOlMusic_tSongName">输入搜索内容: </string>
     <string name="strOlMusic_toastDone">下载成功!</string>
     <string name="strOlMusic_toastFail">下载失败,请检查输入是否有问题\n提示：歌手名可以不用输入，留空即可</string>
     <string name="sumbit">提交</string>

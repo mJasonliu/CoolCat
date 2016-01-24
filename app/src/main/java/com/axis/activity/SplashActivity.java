@@ -9,6 +9,7 @@ import android.os.Message;
 import android.support.v4.app.FragmentActivity;
 
 import com.axis.coolcat.R;
+import com.axis.database.SongListDatabase;
 import com.umeng.analytics.MobclickAgent;
 
 /**
@@ -24,6 +25,7 @@ public class SplashActivity extends FragmentActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.welcome);
         mHandler.sendEmptyMessageDelayed(0, mDelayMillis);
+
 
         initUmengSDK();
     }

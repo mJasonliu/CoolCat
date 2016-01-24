@@ -2,8 +2,8 @@ package com.axis.fragment;
 
 
 import android.os.Bundle;
+import android.os.Handler;
 import android.os.Message;
-import android.preference.PreferenceManager;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,24 +11,24 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-import android.os.Handler;
 
 import com.axis.coolcat.R;
-import com.axis.util.Constant;
-import com.axis.util.MusicDownloadManager;
+import com.axis.util.AboutSong;
+import com.axis.util.SearchImpl;
 
-import java.io.File;
+import org.json.JSONException;
+
+import java.io.IOException;
 import java.lang.ref.WeakReference;
-import java.util.Scanner;
+import java.util.List;
 
 public class OLMusicFragment extends Fragment implements View.OnClickListener {
 
-    EditText eName = null;
-    EditText eSinger = null;
+    EditText eWant = null;
     Button bSearch = null;
     View root = null;
 
-    MusicDownloadManager md;
+    List<AboutSong> aboutSongList = null;
 
     WeakReference<Handler> wf;
 
@@ -48,8 +48,7 @@ public class OLMusicFragment extends Fragment implements View.OnClickListener {
 
 
     private void mInit() {
-        eName = (EditText) root.findViewById(R.id.olMusic_eSongName);
-        eSinger = (EditText) root.findViewById(R.id.olMusic_eSingerName);
+        eWant = (EditText) root.findViewById(R.id.olMusic_eWant);
         bSearch = (Button) root.findViewById(R.id.olMusic_bSearch);
         bSearch.setOnClickListener(this);
 
@@ -97,30 +96,23 @@ public class OLMusicFragment extends Fragment implements View.OnClickListener {
         public void run() {
             // FIXME: 2016/1/4
             System.out.println("running=================================" + Thread.currentThread().getName());
-            md = new MusicDownloadManager();
-            String name = eName.getText().toString();
-            String singer = eSinger.getText().toString();
-            String folderPath = PreferenceManager.getDefaultSharedPreferences(
-                    getActivity()).getString(SettingFragment.KEY_LYRIC_SAVE_PATH,
-                    Constant.LYRIC_SAVE_FOLDER_PATH);
-            if(name.equals("")){
-                wf.get().sendEmptyMessage(2);
-                return;
-            }
-            if (singer.equals("")) {
-                if (md.download("http://box.zhangmen.baidu.com/x?op=12&count=1&title=", name, singer, folderPath)) {
-                    wf.get().sendEmptyMessage(1);
-                } else {
-                    wf.get().sendEmptyMessage(2);
+            SearchImpl search = new SearchImpl();
+            try {
+                aboutSongList = search.getResult(getActivity(), eWant.getText().toString().trim());
+                if (aboutSongList == null){
+                    return;
                 }
 
-            } else {
-                if (md.download("http://box.zhangmen.baidu.com/x?op=12&count=1&title=", name, singer, folderPath)) {
-                    wf.get().sendEmptyMessage(1);
-                } else {
-                    wf.get().sendEmptyMessage(2);
-                }
+                SearchResultPage searchResultPage = new SearchResultPage();
+                getFragmentManager().beginTransaction().replace(R.id.fragment_olmusic,searchResultPage).commit();
+            } catch (IOException e) {
+                e.printStackTrace();
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }catch (NullPointerException e){
+                e.printStackTrace();
             }
         }
     }
 }
+

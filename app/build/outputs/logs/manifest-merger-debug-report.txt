@@ -6,7 +6,7 @@ ADDED from E:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:2:1-113:
 		INJECTED from E:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml
 		INJECTED from E:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from E:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:5:11-44
+		ADDED from E:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml:5:11-41
 		INJECTED from E:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml
 		INJECTED from E:\Work\Android_APP\CoolCat\app\src\main\AndroidManifest.xml
 	android:versionCode

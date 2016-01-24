@@ -14,7 +14,17 @@ public final class Constant {
             .getExternalStorageDirectory()
             + File.separator
             + "CoolCat"
-            + File.separator + "lyric" + File.separator;
+            + File.separator + "Lyric" + File.separator;
+    public static final String IMG_SAVE_FOLDER_PATH = Environment
+            .getExternalStorageDirectory()
+            + File.separator
+            + "CoolCat"
+            + File.separator + "IMG" + File.separator;
+    public static final String MUSIC_SAVE_FOLDER_PATH = Environment
+            .getExternalStorageDirectory()
+            + File.separator
+            + "CoolCat"
+            + File.separator + "Music" + File.separator;
     public static final String AUTHOR_EMAIL = "m.jason.liu@gmail.com";
     public static final String PLAY_MODE = "play_mode";
     public static final String PLAYING_STATE = "playing_state";

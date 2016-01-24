@@ -933,12 +933,12 @@ public class MusicService extends Service implements OnCompletionListener,
      */
     private void loadLyric(String path) {
         // 取得歌曲同目录下的歌词文件绝对路径
-        String lyricFilePath = Constant.LYRIC_SAVE_FOLDER_PATH + "/"
-                + mPlayingSong.getTitle() + "_" + mPlayingSong.getArtist()
+        String lyricFilePath = getSharedPreferences("settings", Context.MODE_PRIVATE).getString("key_music_save_path", Constant.LYRIC_SAVE_FOLDER_PATH) + "/"
+                + mPlayingSong.getArtist() + " - " + mPlayingSong.getTitle()
                 + ".lrc";
-        File lyricfile = new File(lyricFilePath);
+        File lyricFile = new File(lyricFilePath);
 
-        if (lyricfile.exists()) {
+        if (lyricFile.exists()) {
             // 本地有歌词，直接读取
             Log.i(TAG, "loadLyric()--->本地有歌词，直接读取");
             mHasLyric = mLyricLoadHelper.loadLyric(lyricFilePath);
@@ -953,8 +953,8 @@ public class MusicService extends Service implements OnCompletionListener,
             if (downloadLyricAutomatically) {
                 // 尝试网络获取歌词
                 Log.i(TAG, "loadLyric()--->本地无歌词，尝试从网络获取");
-                new LyricDownloadAsyncTask().execute(mPlayingSong.getTitle(),
-                        mPlayingSong.getArtist());
+//                new LyricDownloadAsyncTask().execute(mPlayingSong.getTitle(),
+//                        mPlayingSong.getArtist(), );
             } else {
                 // 设置歌词为空
                 mHasLyric = mLyricLoadHelper.loadLyric(null);
@@ -1000,27 +1000,4 @@ public class MusicService extends Service implements OnCompletionListener,
         }
     };
 
-    class LyricDownloadAsyncTask extends AsyncTask<String, Void, String> {
-
-        @Override
-        protected String doInBackground(String... params) {
-            // 从网络获取歌词，然后保存到本地
-            String lyricFilePath = mLyricDownloadManager.searchLyricFromWeb(
-                    params[0], params[1]);
-            // 返回本地歌词路径
-            return lyricFilePath;
-        }
-
-        @Override
-        protected void onPostExecute(String result) {
-            Log.i(TAG, "网络获取歌词完毕，歌词保存路径:" + result);
-            // 读取保存到本地的歌曲
-            mHasLyric = mLyricLoadHelper.loadLyric(result);
-        }
-
-        ;
-
-    }
-
-    ;
 }

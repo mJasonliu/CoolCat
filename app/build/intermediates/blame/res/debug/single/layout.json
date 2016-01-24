@@ -244,6 +244,10 @@
         "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\layout\\track_detail_dialog.xml"
     },
     {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_searchresult.xml",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\layout\\fragment_searchresult.xml"
+    },
+    {
         "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\feedback.xml",
         "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\layout\\feedback.xml"
     },
@@ -342,6 +346,10 @@
     {
         "merged": "F:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_artist.xml",
         "source": "F:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\layout\\list_item_artist.xml"
+    },
+    {
+        "merged": "E:\\Work\\Android_APP\\CoolCat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_result.xml",
+        "source": "E:\\Work\\Android_APP\\CoolCat\\app\\src\\main\\res\\layout\\list_item_result.xml"
     },
     {
         "merged": "F:\\Work\\Android_APP\\MusicPlayer\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_folder_choose.xml",

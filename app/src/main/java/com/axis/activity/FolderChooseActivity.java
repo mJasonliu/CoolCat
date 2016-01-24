@@ -1,10 +1,6 @@
 package com.axis.activity;
 
-import java.io.File;
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.LinkedList;
-
+import android.content.Context;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v4.app.FragmentActivity;
@@ -21,18 +17,43 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.axis.coolcat.R;
 import com.axis.fragment.EditTextDialogFragment;
 import com.axis.fragment.EditTextDialogFragment.OnMyDialogInputListener;
 import com.axis.fragment.SettingFragment;
 import com.axis.util.Constant;
-import com.axis.coolcat.R;
 import com.umeng.analytics.MobclickAgent;
+
+import java.io.File;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.LinkedList;
 
 /**
  * @author lq 2013-6-1 lq2625304@gmail.com
  */
 public class FolderChooseActivity extends FragmentActivity {
     private final String TAG = FolderChooseActivity.class.getSimpleName();
+    Comparator<String> mFolderNameComparator = new Comparator<String>() {
+        char first_l, first_r;
+
+        @Override
+        public int compare(String lhs, String rhs) {
+            // 汉字转拼音这个操作非常耗时
+            // first_l = StringHelper.getPingYin(lhs).toLowerCase().charAt(0);
+            // first_r = StringHelper.getPingYin(rhs).toLowerCase().charAt(0);
+            first_l = lhs.toLowerCase().charAt(0);
+            first_r = rhs.toLowerCase().charAt(0);
+            if (first_l > first_r) {
+                return 1;
+            } else if (first_l < first_r) {
+                return -1;
+            } else {
+                return 0;
+            }
+        }
+    };
+    private String arg = null;
     private ImageView mView_Close = null;
     private TextView mView_Title = null;
     private ListView mView_ListView = null;
@@ -40,55 +61,17 @@ public class FolderChooseActivity extends FragmentActivity {
     private Button mView_CreateFolder = null;
     private ImageButton mView_BackToPrev = null;
     private TextView mView_CurrentPath = null;
-
     private ArrayAdapter<String> mAdapter = null;
     private ArrayList<String> mCurFolderList = new ArrayList<String>();
-
     private EditTextDialogFragment mCreateNewFolderDialogFragment = null;
-
     /**
      * 路径栈
      */
     private LinkedList<String> mPathStack = new LinkedList<String>();
-
     /**
      * 当前路径
      */
     private String mCurPath = Constant.SDCARD_ROOT_PATH;
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        Log.i(TAG, "onCreate");
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.folder_choose);
-
-        findViews();
-        initViewsSetting();
-        updateFolderList();
-    }
-
-    @Override
-    protected void onStart() {
-        super.onStart();
-    }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-        MobclickAgent.onResume(this);
-    }
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-        MobclickAgent.onPause(this);
-    }
-
-    @Override
-    protected void onStop() {
-        super.onStop();
-    }
-
     OnMyDialogInputListener mCreateNewFolderListener = new OnMyDialogInputListener() {
 
         @Override
@@ -118,6 +101,40 @@ public class FolderChooseActivity extends FragmentActivity {
 
         }
     };
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        Log.i(TAG, "onCreate");
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.folder_choose);
+        arg = getIntent().getStringExtra("arg");
+        Log.i(TAG, "-->"+arg);
+        findViews();
+        initViewsSetting();
+        updateFolderList();
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        MobclickAgent.onResume(this);
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        MobclickAgent.onPause(this);
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+    }
 
     @Override
     public void onBackPressed() {
@@ -186,22 +203,41 @@ public class FolderChooseActivity extends FragmentActivity {
             }
         });
 
-        // 标题设置--------------------------------------------------------
-        mView_Title.setText(R.string.choose_lyric_save_path);
+        if (arg.equals(SettingFragment.KEY_LYRIC_SAVE_PATH)) {
 
-        // 确认保存到当前位置
-        mView_Confirm.setOnClickListener(new OnClickListener() {
+            // 标题设置--------------------------------------------------------
+            mView_Title.setText(R.string.choose_lyric_save_path);
 
-            @Override
-            public void onClick(View v) {
-                PreferenceManager
-                        .getDefaultSharedPreferences(getApplicationContext())
-                        .edit()
-                        .putString(SettingFragment.KEY_LYRIC_SAVE_PATH,
-                                mCurPath).commit();
-                FolderChooseActivity.this.finish();
-            }
-        });
+            // 确认保存到当前位置
+            mView_Confirm.setOnClickListener(new OnClickListener() {
+
+                @Override
+                public void onClick(View v) {
+                    getSharedPreferences("settings", Context.MODE_PRIVATE)
+                            .edit()
+                            .putString(SettingFragment.KEY_LYRIC_SAVE_PATH,
+                                    mCurPath).commit();
+                    FolderChooseActivity.this.finish();
+                }
+            });
+        }else  if(arg.equals(SettingFragment.KEY_MUSIC_SAVE_PATH)) {
+
+            // 标题设置--------------------------------------------------------
+            mView_Title.setText(R.string.choose_music_save_path);
+
+            // 确认保存到当前位置
+            mView_Confirm.setOnClickListener(new OnClickListener() {
+
+                @Override
+                public void onClick(View v) {
+                    getSharedPreferences("settings", Context.MODE_PRIVATE)
+                            .edit()
+                            .putString(SettingFragment.KEY_MUSIC_SAVE_PATH,
+                                    mCurPath).commit();
+                    FolderChooseActivity.this.finish();
+                }
+            });
+        }
 
         // 新建目录
         mView_CreateFolder.setOnClickListener(new OnClickListener() {
@@ -250,24 +286,4 @@ public class FolderChooseActivity extends FragmentActivity {
         }
         mAdapter.notifyDataSetChanged();
     }
-
-    Comparator<String> mFolderNameComparator = new Comparator<String>() {
-        char first_l, first_r;
-
-        @Override
-        public int compare(String lhs, String rhs) {
-            // 汉字转拼音这个操作非常耗时
-            // first_l = StringHelper.getPingYin(lhs).toLowerCase().charAt(0);
-            // first_r = StringHelper.getPingYin(rhs).toLowerCase().charAt(0);
-            first_l = lhs.toLowerCase().charAt(0);
-            first_r = rhs.toLowerCase().charAt(0);
-            if (first_l > first_r) {
-                return 1;
-            } else if (first_l < first_r) {
-                return -1;
-            } else {
-                return 0;
-            }
-        }
-    };
 }

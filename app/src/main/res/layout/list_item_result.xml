@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/list_item_imageView_songIMG"
+        android:layout_alignParentLeft="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:text="歌曲名"
+        android:textSize="30sp"
+        android:id="@+id/list_item_textView_songName"
+        android:layout_toRightOf="@+id/list_item_imageView_songIMG"
+        android:layout_toLeftOf="@+id/list_item_textView_singerName"
+        android:layout_toEndOf="@+id/list_item_imageView_songIMG" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:text="专辑名"
+        android:textSize="30sp"
+        android:id="@+id/list_item_textView_albumName"
+        android:layout_below="@+id/list_item_textView_songName"
+        android:layout_toRightOf="@+id/list_item_imageView_songIMG"
+        android:layout_toLeftOf="@+id/list_item_textView_Time"
+        android:layout_toEndOf="@+id/list_item_imageView_songIMG" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:text="歌手名"
+        android:textSize="30sp"
+        android:id="@+id/list_item_textView_singerName"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:text="时间"
+        android:textSize="30sp"
+        android:id="@+id/list_item_textView_Time"
+        android:layout_below="@+id/list_item_textView_singerName"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
